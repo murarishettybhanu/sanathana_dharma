@@ -1,0 +1,86 @@
+{
+  "__note": "Mirrors the live site's five-column footer: two location maps, the About Guruji menu, Quick Links, and the YouTube call to action. Map embed URLs are the ones the Trust already uses.",
+  "maps": [
+    {
+      "id": "bheemunipatnam",
+      "label": "Bheemunipatnam",
+      "caption": "Ananda Vanam, Sri Kandukuri Sivananda Ashram",
+      "embed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2314.434388893595!2d83.43696948397368!3d17.90497574511433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa3ca3725a3c3f6bc!2sAnanda%20Vanam%2C%20Sri%20Kandukuri%20Shivananada%20Ashram!5e1!3m2!1sen!2sin!4v1588576860701!5m2!1sen!2sin"
+    },
+    {
+      "id": "warangal",
+      "label": "Warangal",
+      "caption": "Gurudham, Mulug Road",
+      "embed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3974.9880997563337!2d79.60078003447754!3d18.02245725441073!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9357cb56c660a970!2sGurudham!5e1!3m2!1sen!2sin!4v1588576616385!5m2!1sen!2sin"
+    }
+  ],
+  "columns": [
+    {
+      "id": "about-guruji",
+      "title": "About Guruji",
+      "links": [
+        {
+          "label": "Guruji",
+          "to": "/about-guruji/guruji"
+        },
+        {
+          "label": "Biography",
+          "to": "/about-guruji/guruji/biography"
+        },
+        {
+          "label": "Travel",
+          "to": "/about-guruji/guruji/travel"
+        },
+        {
+          "label": "Speeches",
+          "to": "/audios"
+        },
+        {
+          "label": "Publications",
+          "to": "/about-guruji/guruji/publications"
+        },
+        {
+          "label": "Guruji Writings",
+          "to": "/about-guruji/guruji/guruji-writings"
+        }
+      ]
+    },
+    {
+      "id": "quick-links",
+      "title": "Quick Links",
+      "links": [
+        {
+          "label": "Home",
+          "to": "/"
+        },
+        {
+          "label": "Activities",
+          "to": "/activities"
+        },
+        {
+          "label": "Honors & Awards",
+          "to": "/honors-awards"
+        },
+        {
+          "label": "Photos",
+          "to": "/photos"
+        },
+        {
+          "label": "Videos",
+          "to": "/videos"
+        },
+        {
+          "label": "Feedback",
+          "to": "/feedback"
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "title": "Watch & Subscribe",
+    "label": "YouTube Channel",
+    "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos"
+  },
+  "copyright": "Sanathana Dharma Charitable Trust. All Rights Reserved.",
+  "copyrightFrom": 2020
+}

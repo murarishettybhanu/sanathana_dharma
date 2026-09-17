@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ann-live-stream",
+    "kind": "live",
+    "text": "Krishna Jayanthi 2026 will be streamed live on our YouTube channel.",
+    "href": "https://www.youtube.com/@SadguruSivanandaMurthyGaru",
+    "linkLabel": "Watch live",
+    "publishedAt": "2026-08-28",
+    "expiresAt": "2026-09-05",
+    "__placeholder": true
+  },
+  {
+    "id": "ann-prathibha-nominations",
+    "kind": "notice",
+    "text": "Nominations for the Sree Ramanavami Prathibha Puraskaram are open until 31 January.",
+    "href": "/activities#honours",
+    "linkLabel": "Read the criteria",
+    "publishedAt": "2026-09-01",
+    "expiresAt": "2027-01-31",
+    "__placeholder": true
+  }
+]

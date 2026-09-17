@@ -1,0 +1,244 @@
+@import 'tailwindcss';
+
+/* Self-hosted variable fonts: no render-blocking request to a third-party
+   origin, and only the axes we actually use are downloaded. */
+@import '@fontsource-variable/plus-jakarta-sans';
+@import '@fontsource-variable/fraunces';
+
+/* ---------------------------------------------------------------------------
+   DESIGN TOKENS
+   Tailwind v4 reads this block and generates the matching utilities:
+   `--color-indigo-600`  ->  bg-indigo-600 / text-indigo-600 / border-indigo-600
+   `--font-display`      ->  font-display
+   Because the utilities compile to `var(--color-…)`, every token can also be
+   re-pointed at runtime — see the high-contrast block further down.
+--------------------------------------------------------------------------- */
+@theme {
+  /* ---------------------------------------------------------------------------
+     PALETTE — sampled from the Trust's banyan mark (public/favicon.svg).
+     The logo is a banyan under a night sky on sandy ground, and every ramp
+     below is anchored to a colour measured out of that artwork:
+
+       indigo-600  #3748A6  the night sky, and the single most common colour
+       sky-300     #9ACFEB  the pale band at the horizon
+       banyan-600  #2F602C  mid-tone of the canopy
+       ochre-400   #C9964B  the lit edge of the ground
+       ink / sand           warm neutrals pulled from trunk and sand
+
+     Anchors carry a comment; the rest of each ramp is interpolated around them.
+  --------------------------------------------------------------------------- */
+
+  /* --- Indigo: the brand. Night sky, primary actions, headings, focus ring -- */
+  --color-indigo-50: #eef1fa;
+  --color-indigo-100: #dde3f5;
+  --color-indigo-200: #bcc6ea;
+  --color-indigo-300: #8f9fd8;
+  --color-indigo-400: #6274c2;
+  --color-indigo-500: #4354ac;
+  --color-indigo-600: #3748a5; /* sampled — 7.5:1 on sand-50 */
+  --color-indigo-700: #2a3780;
+  --color-indigo-800: #1e2a66; /* CTA band */
+  --color-indigo-900: #141e4c; /* hero and footer ground */
+  --color-indigo-950: #0d1330;
+
+  /* --- Sky: the horizon band. Light accents that sit ON indigo ------------- */
+  --color-sky-200: #c7f2f9; /* sampled — the glow around the canopy */
+  --color-sky-300: #99cce9; /* sampled */
+  --color-sky-400: #6fb6dc;
+
+  /* --- Banyan: the canopy. Secondary accent for cards and icons ------------ */
+  --color-banyan-50: #eef5ec;
+  --color-banyan-100: #d8e9d4;
+  --color-banyan-200: #b2d3aa;
+  --color-banyan-300: #7fb374;
+  --color-banyan-400: #50a447; /* sampled — canopy highlight */
+  --color-banyan-500: #3a7233;
+  --color-banyan-600: #2e672d; /* sampled — 6.6:1 on sand-50 */
+  --color-banyan-700: #245022;
+  --color-banyan-800: #1c4519; /* sampled */
+  --color-banyan-900: #153014; /* sampled */
+
+  /* --- Ochre: the ground. Eyebrows, ornament, donation actions ------------- */
+  --color-ochre-50: #fbf4e8;
+  --color-ochre-100: #f5e7ce;
+  --color-ochre-200: #ebd2a3;
+  --color-ochre-300: #ddb76f; /* light enough to sit on indigo */
+  --color-ochre-400: #c9964b; /* sampled — lit edge of the ground */
+  --color-ochre-500: #986e35; /* sampled — the sunlit ground */
+  --color-ochre-600: #8a6128; /* 5.2:1 on sand-50 */
+  --color-ochre-700: #6e4d20;
+  --color-ochre-800: #573c19;
+
+  /* --- Sand: page surfaces, and light text on the indigo grounds ----------- */
+  --color-sand-50: #fbf8f2;
+  --color-sand-100: #f5f0e4;
+  --color-sand-200: #ebe3d2; /* text on dark — never a border */
+  --color-sand-300: #daceb4;
+
+  /* --- Ink: warm charcoal, never pure black -------------------------------- */
+  --color-ink-400: #a9a294;
+  --color-ink-500: #847c6e;
+  --color-ink-600: #635b50;
+  --color-ink-700: #423b33;
+  --color-ink-800: #2b251f;
+  --color-ink-900: #1c1811;
+  --color-ink-950: #12100c;
+
+  /* --- Semantic aliases: components reference these, not the raw ramps ----- */
+  --color-surface: var(--color-sand-50);
+  --color-surface-raised: #ffffff;
+  --color-surface-sunken: var(--color-sand-100);
+  --color-body: var(--color-ink-700);
+  --color-heading: var(--color-ink-900);
+  --color-muted: var(--color-ink-600);
+  --color-line: var(--color-sand-300); /* borders on light surfaces only */
+  --color-brand: var(--color-indigo-600);
+  --color-accent: var(--color-ochre-600);
+
+  /* --- Type ---------------------------------------------------------------- */
+  --font-sans: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces Variable', 'Iowan Old Style', Georgia, serif;
+
+  /* --- Elevation: warm-tinted shadows; grey shadows look dirty on sand ----- */
+  --shadow-soft: 0 1px 2px rgb(66 59 51 / 0.04), 0 8px 24px -12px rgb(66 59 51 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(66 59 51 / 0.05), 0 18px 40px -16px rgb(66 59 51 / 0.22);
+
+  --radius-card: 1rem;
+  --ease-calm: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ---------------------------------------------------------------------------
+   HIGH-CONTRAST MODE  (toggled via <html data-contrast="high">)
+
+   Every token is re-pointed, not just the semantic aliases — components
+   reference the ramps directly, so a partial override would leave half the
+   page unchanged.
+
+   The ramps are split by the surface they appear on, and that split is what
+   makes the override safe:
+     · sand-50/100, line, ink-*, indigo-50/600/700, ochre-50/100/600/700 and
+       banyan-600 appear on LIGHT surfaces, so they darken.
+     · sand-200, sky-*, ochre-300/400 appear on DARK grounds (hero, footer,
+       CTA), so they lighten instead.
+   Mixing those roles on one token is what breaks a contrast theme, so each
+   token is used in exactly one of the two contexts.
+--------------------------------------------------------------------------- */
+[data-contrast='high'] {
+  /* Semantic aliases */
+  --color-surface: #ffffff;
+  --color-surface-raised: #ffffff;
+  --color-surface-sunken: #f1efeb;
+  --color-body: #14100e;
+  --color-heading: #000000;
+  --color-muted: #1f1a17;
+  --color-line: #4a423c;
+  --color-brand: #1b2560;
+  --color-accent: #6b4a1c;
+
+  /* Light surfaces */
+  --color-sand-50: #ffffff;
+  --color-sand-100: #f1efeb;
+  --color-sand-300: #4a423c;
+
+  /* Text on light surfaces */
+  --color-ink-400: #4a423c;
+  --color-ink-500: #332d29;
+  --color-ink-600: #1f1a17;
+  --color-ink-700: #14100e;
+  --color-ink-800: #0a0807;
+  --color-ink-900: #000000;
+  --color-ink-950: #000000;
+
+  /* Accents on light surfaces */
+  --color-indigo-50: #e8ebf7;
+  --color-indigo-500: #1b2560;
+  --color-indigo-600: #1b2560; /* 13.9:1 on white */
+  --color-indigo-700: #111845;
+  --color-ochre-50: #fbf1df;
+  --color-ochre-100: #f4e3c4;
+  --color-ochre-500: #6b4a1c;
+  --color-ochre-600: #6b4a1c; /* 7.9:1 on white */
+  --color-ochre-700: #523815;
+  --color-banyan-50: #e9f3e7;
+  --color-banyan-600: #1e4a1c;
+  --color-banyan-700: #143612;
+
+  /* Dark grounds get darker, so light text on them gains contrast */
+  --color-indigo-800: #131a44;
+  --color-indigo-900: #0b1030;
+
+  /* Content on dark grounds lightens to match */
+  --color-sand-200: #ffffff;
+  --color-sky-200: #e4f3fb;
+  --color-sky-300: #cfeafa;
+  --color-ochre-300: #ffe0a8;
+  --color-ochre-400: #ffcf85;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Anchor targets clear the sticky header instead of hiding under it. */
+    scroll-padding-top: 6rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-body);
+    font-family: var(--font-sans);
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    color: var(--color-heading);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  p { text-wrap: pretty; }
+
+  /* One consistent, clearly visible focus ring everywhere — keyboard users
+     should never have to hunt for their position on the page. */
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-ochre-200);
+    color: var(--color-ink-900);
+  }
+
+  /* Respect the OS-level motion preference. Framer Motion is additionally
+     gated in JS (see usePrefersReducedMotion) so transforms never even run. */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* A hairline rule with a soft gold centre — the one piece of ornament the
+     design allows itself, used to separate major sections. */
+  .rule-ornament {
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--color-ochre-300) 35%,
+      var(--color-ochre-500) 50%,
+      var(--color-ochre-300) 65%,
+      transparent
+    );
+  }
+}

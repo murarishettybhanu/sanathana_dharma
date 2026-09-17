@@ -1,0 +1,338 @@
+[
+  {
+    "id": "sanathana-dharma-charitable-trust",
+    "name": "Sanathana Dharma Charitable Trust",
+    "shortName": "Sanathana Dharma",
+    "seat": "Anandavanam, Bheemunipatnam",
+    "registeredOn": "2000-02-10",
+    "summary": "The principal trust. Awards, publications, media, the performing arts, heritage exhibitions and medical camps.",
+    "body": [
+      "Registered on 10 February 2000 with its office at Anandavanam, Bheemunipatnam, the Trust carries the greater part of Guruji's public work \u2014 the annual honours, the publication programme, and the medical camps conducted in tribal areas across several Indian states.",
+      "Its seven stated objectives are set out in full on the Objectives page."
+    ],
+    "objectivesIntro": "Published by the Trust under the heading \u201cImportant Activities of our Trust\u201d.",
+    "objectives": [
+      {
+        "slug": "eminent-citizens",
+        "title": "Recognition of Eminent Citizens",
+        "body": "Annual awards honouring eminent citizens of society, presented with a cash award, a citation and a memento at a formal convocation."
+      },
+      {
+        "slug": "cultural-contributors",
+        "title": "Honouring Cultural Contributors",
+        "body": "Felicitation of accomplished individuals on the occasion of Sree Ramanavami through the Prathibha Puraskaram."
+      },
+      {
+        "slug": "publications",
+        "title": "Publications",
+        "body": "Publication of Guruji's writings on ancient history, philosophy and cultural commentary, and support for other authors working in the same field."
+      },
+      {
+        "slug": "media",
+        "title": "Media & Preservation",
+        "body": "Television and film work portraying the history and culture of Andhra, including a feature on the Buddha that received a special jury award."
+      },
+      {
+        "slug": "performing-arts",
+        "title": "Promotion of the Performing Arts",
+        "body": "Sponsoring music academies, conducting annual festivals, establishing free music learning centres, and conferring titles such as Sangeetha Vidya Nidhi."
+      },
+      {
+        "slug": "heritage",
+        "title": "Heritage Exhibition",
+        "body": "Cultural exhibitions of charts and artefacts covering the region's history from prehistoric times to the modern day."
+      },
+      {
+        "slug": "medical",
+        "title": "Medical Outreach",
+        "body": "Medical camps in tribal areas across several Indian states, providing free medicines and other necessities."
+      }
+    ],
+    "hasTrustees": true,
+    "activities": [
+      {
+        "slug": "sivananda-eminent-citizen-awards",
+        "title": "Sivananda Eminent Citizen Awards",
+        "summary": "Annual recognition of eminent citizens, conferred with a cash award, citation and memento at a formal convocation.",
+        "body": [
+          "The awards have been conferred since 1994. The 2022 convocation was held on Sunday 27 March at the Durbar Hall, Raj Bhavan, Chennai.",
+          "Sri K. Parasaran, the legal luminary, received the award in 2020."
+        ]
+      },
+      {
+        "slug": "sree-ramanavami-prathibha-puraskaram",
+        "title": "Sree Ramanavami Prathibha Puraskaram",
+        "summary": "Felicitation of accomplished individuals on the occasion of Sree Ramanavami.",
+        "body": [
+          "Presented each year at Sree Ramanavami, the Prathibha Puraskaram encourages sustained contribution to culture and scholarship."
+        ]
+      },
+      {
+        "slug": "sree-krishna-janmashtami",
+        "title": "Sree Krishna Janmashtami",
+        "summary": "The annual Janmashtami observance, with bhajan, discourse and classical music through the evening.",
+        "body": [
+          "The 2026 celebration falls on Friday 4 September, from 6:00 pm at Tivoli Garden, Secunderabad."
+        ]
+      },
+      {
+        "slug": "july-11th",
+        "title": "July 11th",
+        "summary": "An annual observance kept by the Trust, recorded in the archive from 2010 onward.",
+        "body": [],
+        "needsContent": "The Trust's page for this observance carries photographs from 2010, 2012 and 2013 but no description. A sentence on what the day marks would complete this page."
+      },
+      {
+        "slug": "other-events",
+        "title": "Other Events",
+        "summary": "Further gatherings and observances held through the year.",
+        "body": [],
+        "needsContent": "An archive page on the live site; listings to be supplied."
+      }
+    ],
+    "honours": [
+      {
+        "slug": "sivananda-eminent-citizen-awards",
+        "title": "Sivananda Eminent Citizen Awards",
+        "summary": "Annual recognition of eminent citizens of society, conferred with a cash award, a citation and a memento at a formal convocation.",
+        "icon": "award",
+        "accent": "indigo"
+      },
+      {
+        "slug": "sree-ramanavami-prathibha-puraskaram",
+        "title": "Sree Ramanavami Prathibha Puraskaram",
+        "summary": "Felicitation of accomplished individuals on the occasion of Sree Ramanavami, encouraging sustained contribution to culture and scholarship.",
+        "icon": "sparkles",
+        "accent": "ochre"
+      }
+    ],
+    "contact": {
+      "addressLines": [
+        "Sanathana Dharma Charitable Trust",
+        "Anandavanam, Bheemunipatnam \u2013 531 163",
+        "Visakhapatnam District, Andhra Pradesh, India"
+      ],
+      "email": null,
+      "phone": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2314.434388893595!2d83.43696948397368!3d17.90497574511433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa3ca3725a3c3f6bc!2sAnanda%20Vanam%2C%20Sri%20Kandukuri%20Shivananada%20Ashram!5e1!3m2!1sen!2sin!4v1588576860701!5m2!1sen!2sin"
+    }
+  },
+  {
+    "id": "siva-ganga-sangeeta-parishad",
+    "name": "Siva Ganga Sangeeta Parishad",
+    "shortName": "Siva Ganga",
+    "seat": "Bheemunipatnam and Warangal",
+    "registeredOn": null,
+    "summary": "The music and dance wing \u2014 festivals, free learning centres, and the Vidya Nidhi honours.",
+    "body": [
+      "The Parishad promotes classical music and the cultural arts, conducting the Annual Music Festival, the Sarada Sangeetotsavam and the Vaggeyakara Festival, and establishing free music learning centres.",
+      "It confers the titles Sangeetha Vidya Nidhi and Natya Vidya Nidhi, and the Sarada Sangeetha Puraskaram."
+    ],
+    "objectivesIntro": null,
+    "objectives": [
+      {
+        "slug": "music",
+        "title": "Promotion of Classical Music",
+        "body": "Conducting annual festivals and sponsoring music academies, so that performers and the listening tradition around them are both sustained."
+      },
+      {
+        "slug": "learning",
+        "title": "Free Music Learning Centres",
+        "body": "Establishing centres at which classical music is taught without fee."
+      },
+      {
+        "slug": "recognition",
+        "title": "Recognition of Artists",
+        "body": "Conferring the titles Sangeetha Vidya Nidhi and Natya Vidya Nidhi, and the Sarada Sangeetha Puraskaram."
+      }
+    ],
+    "hasTrustees": true,
+    "activities": [
+      {
+        "slug": "annual-music-festival",
+        "title": "Annual Music Festival",
+        "summary": "The Parishad's principal festival of Carnatic vocal and instrumental music.",
+        "body": []
+      },
+      {
+        "slug": "sarada-sangeetotsavam",
+        "title": "Sarada Sangeetotsavam",
+        "summary": "Music offered during Sarad Navaratrulu, with the Sarada Sangeetha Puraskaram presented to performing artists.",
+        "body": []
+      },
+      {
+        "slug": "vaggeyakara-festival",
+        "title": "Vaggeyakara Festival",
+        "summary": "A festival devoted to the composer-poets of the Carnatic tradition.",
+        "body": []
+      },
+      {
+        "slug": "other-events",
+        "title": "Other Events",
+        "summary": "Further concerts and gatherings held through the year.",
+        "body": [],
+        "needsContent": "An archive page on the live site; listings to be supplied."
+      }
+    ],
+    "honours": [
+      {
+        "slug": "sangeetha-vidya-nidhi",
+        "title": "Sangeetha Vidya Nidhi",
+        "summary": "A title conferred on musicians in recognition of accomplishment and standing in the Carnatic tradition.",
+        "icon": "music",
+        "accent": "banyan"
+      },
+      {
+        "slug": "natya-vidya-nidhi",
+        "title": "Natya Vidya Nidhi",
+        "summary": "The corresponding title for dancers, recognising mastery of the classical dance tradition.",
+        "icon": "drama",
+        "accent": "indigo"
+      },
+      {
+        "slug": "sarada-sangeetha-puraskaram",
+        "title": "Sarada Sangeetha Puraskaram",
+        "summary": "An award presented during the Sarada Sangeetotsavam to artists performing in the festival.",
+        "icon": "trophy",
+        "accent": "ochre"
+      }
+    ],
+    "contact": {
+      "addressLines": [
+        "Siva Ganga Sangeeta Parishad",
+        "Bheemunipatnam, Visakhapatnam District",
+        "Andhra Pradesh, India"
+      ],
+      "email": null,
+      "phone": null,
+      "mapEmbed": null
+    }
+  },
+  {
+    "id": "mahalakshmi-temple-charitable-trust",
+    "name": "Mahalakshmi Temple Charitable Trust",
+    "shortName": "Mahalakshmi Temple",
+    "seat": "Bheemunipatnam and Warangal",
+    "registeredOn": null,
+    "summary": "Temple observances through the year, including the Navaratri festivals.",
+    "body": [
+      "The Trust maintains the temple observances, most visibly the Vasantha Navaratrulu in spring and the Sarad Navaratrulu (Daseera) in autumn."
+    ],
+    "objectivesIntro": null,
+    "objectives": [
+      {
+        "slug": "temple",
+        "title": "Temple Observance",
+        "body": "Maintaining worship and the seasonal festivals at the temple."
+      },
+      {
+        "slug": "navaratri",
+        "title": "The Navaratri Festivals",
+        "body": "Keeping Vasantha Navaratrulu in spring and Sarad Navaratrulu (Daseera) in autumn, each over nine nights."
+      }
+    ],
+    "hasTrustees": true,
+    "activities": [
+      {
+        "slug": "vasantha-navaratrulu",
+        "title": "Vasantha Navaratrulu",
+        "summary": "The spring Navaratri observance kept at the temple.",
+        "body": []
+      },
+      {
+        "slug": "sarad-navaratrulu-daseera",
+        "title": "Sarad Navaratrulu (Daseera)",
+        "summary": "The autumn Navaratri observance, during which the Sarada Sangeetotsavam is held.",
+        "body": []
+      },
+      {
+        "slug": "other-events",
+        "title": "Other Events",
+        "summary": "Further observances held at the temple through the year.",
+        "body": [],
+        "needsContent": "An archive page on the live site; listings to be supplied."
+      }
+    ],
+    "honours": [],
+    "contact": {
+      "addressLines": [
+        "Mahalakshmi Temple Charitable Trust",
+        "Bheemunipatnam, Visakhapatnam District",
+        "Andhra Pradesh, India"
+      ],
+      "email": null,
+      "phone": null,
+      "mapEmbed": null,
+      "legacySlug": "mahalaxshmi-temple-charitable-trust"
+    }
+  },
+  {
+    "id": "sivanandaguru-cultural-trust",
+    "name": "Sivanandaguru Cultural Trust",
+    "shortName": "Sivanandaguru",
+    "seat": "Warangal",
+    "registeredOn": null,
+    "summary": "Gurudham and Saptadham at Warangal, and the observances kept there.",
+    "body": [
+      "Gurudham was built in 1990 near the Ayyappa Temple on Mulug Road, Warangal.",
+      "Saptadham \u2014 two halls and a high domed cubical structure \u2014 was consecrated by Guruji on 12 February 2010, Maha Sivaratri. Guruji asked that it serve as more than a spiritual centre: \u201cThis should be utilized as a cultural centre of Hindu dharma.\u201d"
+    ],
+    "objectivesIntro": null,
+    "objectives": [
+      {
+        "slug": "cultural-centre",
+        "title": "A Cultural Centre of Hindu Dharma",
+        "body": "Guruji's instruction for Saptadham: \u201cMore than a spiritual centre, it should be developed as a cultural Centre.\u201d"
+      },
+      {
+        "slug": "communication",
+        "title": "A Communication Centre",
+        "body": "A place where a visitor staying some days may seek guidance through contemplation and prayer."
+      },
+      {
+        "slug": "programmes",
+        "title": "Programmes",
+        "body": "Music concerts, festivals, religious functions, cultural programmes, seminars, puranasravana, hari katha kaalakshepa and talks on various subjects."
+      }
+    ],
+    "hasTrustees": true,
+    "activities": [
+      {
+        "slug": "gurujis-birthday",
+        "title": "Guruji's Birthday",
+        "summary": "Kept each year in remembrance of Guruji, born 21 December 1928 at Rajahmundry.",
+        "body": []
+      },
+      {
+        "slug": "maha-sivaratri",
+        "title": "Maha Sivaratri",
+        "summary": "Night-long observance in the four jaamas. Saptadham itself was consecrated on Maha Sivaratri in 2010.",
+        "body": []
+      },
+      {
+        "slug": "guru-poornima-celebrations",
+        "title": "Guru Poornima Celebrations",
+        "summary": "Paduka puja and remembrance, followed by annadanam.",
+        "body": []
+      },
+      {
+        "slug": "other-events",
+        "title": "Other Events",
+        "summary": "Further gatherings held at Gurudham and Saptadham.",
+        "body": [],
+        "needsContent": "An archive page on the live site; listings to be supplied."
+      }
+    ],
+    "honours": [],
+    "contact": {
+      "addressLines": [
+        "Sivanandaguru Cultural Trust",
+        "Gurudham, Mulug Road",
+        "Warangal, Telangana, India"
+      ],
+      "email": null,
+      "phone": null,
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3974.9880997563337!2d79.60078003447754!3d18.02245725441073!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9357cb56c660a970!2sGurudham!5e1!3m2!1sen!2sin!4v1588576616385!5m2!1sen!2sin"
+    }
+  }
+]

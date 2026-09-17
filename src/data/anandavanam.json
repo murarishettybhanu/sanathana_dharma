@@ -1,0 +1,50 @@
+{
+  "intro": [
+    "Anandavanam stands at Bheemunipatnam, a village on the east coast near Visakhapatnam. After retiring from government service, Guruji built a small house in a mango grove for his personal residence and named it Anandavan.",
+    "As those who followed his teaching sought to live nearby, it grew into a private residential settlement. It has never been an ashram: \u201cthe visitors to Anandavan are guests at Guruji's residence as there is no institutionalized organization or Ashram at Anandavan.\u201d"
+  ],
+  "places": [
+    {
+      "id": "gurujis-residence",
+      "title": "Guruji's Residence",
+      "body": "The original house in the mango grove, at the centre of the settlement.",
+      "icon": "home",
+      "image": "/images/anandavanam/residence.jpg",
+      "lead": "The original house in the mango grove, at the centre of the settlement."
+    },
+    {
+      "id": "yoga-ganapati-temple",
+      "title": "Yoga Ganapati Temple",
+      "body": "Built on six hundred yards of land given by Guruji, and the spiritual centre of the settlement. Guruji identified the site as the Gurusthan, having felt his master's presence there on his first visit. It is the place of sadhana for the residents of Anandavan.",
+      "icon": "landmark",
+      "image": "/images/anandavanam/yoga-ganapati.jpg",
+      "lead": "Built on six hundred yards of land given by Guruji, and the spiritual centre of the settle\u2026"
+    },
+    {
+      "id": "gurujis-library",
+      "title": "Guruji's Library",
+      "body": "The working collection that stands behind the writing, the discourses and the published commentaries.",
+      "icon": "library",
+      "image": "/images/anandavanam/library.jpg",
+      "lead": "The working collection that stands behind the writing, the discourses and the published co\u2026"
+    },
+    {
+      "id": "yagasala",
+      "title": "Yagasala",
+      "body": "The hall in which yagnas and the longer ritual observances are performed.",
+      "icon": "flame",
+      "image": "/images/anandavanam/yagasala.jpg",
+      "lead": "The hall in which yagnas and the longer ritual observances are performed."
+    }
+  ],
+  "saptadham": {
+    "title": "Saptadham, Warangal",
+    "consecrated": "2010-02-12",
+    "body": [
+      "Saptadham is a magnificent structure, with two halls \u2014 ground and first floor \u2014 and a high domed cubical structure. It was consecrated by Guruji on 12 February 2010, Maha Sivaratri.",
+      "It houses representations of seven gnanis and rishis: Sage Agastya, Sage Viswamitra, Sage Maitreya, Lord Krishna, Sage Parasurama, Maha Yogi Gorakhsa Natha and the Buddha. An inner circle holds Brahma, Vishnu and Siva with their consorts, together with Sri Dattatreya, Sri Dakshina Murthy, Sri Kumara Swamy and Sri Ganapati, all surrounding the Parama Siva in linga form.",
+      "Guruji asked that it serve as a communication centre, where a visitor staying some days might seek guidance through contemplation and prayer \u2014 and beyond that, \u201cMore than a spiritual centre, it should be developed as a cultural Centre. This should be utilized as a cultural centre of Hindu dharma.\u201d",
+      "The premises accommodate music concerts, festivals, religious functions, cultural programmes, seminars, puranasravana, hari katha kaalakshepa and talks on various subjects."
+    ]
+  }
+}

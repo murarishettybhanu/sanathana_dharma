@@ -1,0 +1,58 @@
+[
+  {
+    "id": "obj-eminent-citizens",
+    "title": "Recognition of Eminent Citizens",
+    "summary": "Annual awards honouring eminent citizens of society, presented with a cash prize, citation and memento at a formal convocation.",
+    "icon": "award",
+    "accent": "indigo",
+    "to": "/honors-awards/sanathana-dharma-charitable-trust/sivananda-eminent-citizen-awards"
+  },
+  {
+    "id": "obj-prathibha",
+    "title": "Honouring Cultural Contributors",
+    "summary": "Felicitation of accomplished individuals on the occasion of Sree Ramanavami through the Prathibha Puraskaram.",
+    "icon": "sparkles",
+    "accent": "ochre",
+    "to": "/honors-awards/sanathana-dharma-charitable-trust/sree-ramanavami-prathibha-puraskaram"
+  },
+  {
+    "id": "obj-publications",
+    "title": "Publications",
+    "summary": "Publication of Guruji's writings on ancient history, philosophy and cultural commentary, and support for other authors working in the same field.",
+    "icon": "book-open",
+    "accent": "banyan",
+    "to": "/publications"
+  },
+  {
+    "id": "obj-media",
+    "title": "Media & Preservation",
+    "summary": "Television and film work portraying the history and culture of Andhra \u2014 including a feature on the Buddha that received a special jury award.",
+    "icon": "clapperboard",
+    "accent": "indigo",
+    "to": "/videos"
+  },
+  {
+    "id": "obj-performing-arts",
+    "title": "Promotion of the Performing Arts",
+    "summary": "Sponsoring music academies, conducting annual festivals, establishing free music learning centres, and conferring titles such as Sangeetha Vidya Nidhi.",
+    "icon": "music",
+    "accent": "ochre",
+    "to": "/activities/siva-ganga-sangeeta-parishad"
+  },
+  {
+    "id": "obj-heritage",
+    "title": "Heritage Exhibition",
+    "summary": "Cultural exhibitions of charts and artefacts covering the region's history from prehistoric times to the modern day.",
+    "icon": "landmark",
+    "accent": "banyan",
+    "to": "/activities/sanathana-dharma-charitable-trust"
+  },
+  {
+    "id": "obj-medical",
+    "title": "Medical Outreach",
+    "summary": "Medical camps in tribal areas across several Indian states, providing free medicines and other necessities.",
+    "icon": "heart-handshake",
+    "accent": "indigo",
+    "to": "/about-guruji/sanathana-dharma-charitable-trust/objectives"
+  }
+]

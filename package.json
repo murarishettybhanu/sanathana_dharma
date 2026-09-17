@@ -1,0 +1,35 @@
+{
+  "name": "sdct-bheemili",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sanathana Dharma Charitable Trust, Bheemili \u2014 official website",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check:contrast": "node scripts/check-contrast.mjs",
+    "check:a11y": "vite build --ssr scripts/audit-entry.jsx --outDir .audit --logLevel warn && node scripts/check-a11y.mjs",
+    "check": "npm run check:contrast && npm run check:a11y",
+    "check:links": "node scripts/check-links.mjs",
+    "build:pages": "VITE_BASE=/sanathana_dharma/ vite build"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.2.5",
+    "@fontsource-variable/plus-jakarta-sans": "^5.2.5",
+    "framer-motion": "^12.4.7",
+    "lucide-react": "^0.475.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.9",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright-core": "^1.63.0",
+    "tailwindcss": "^4.0.9",
+    "vite": "^6.2.0"
+  },
+  "homepage": "https://murarishettybhanu.github.io/sanathana_dharma/"
+}

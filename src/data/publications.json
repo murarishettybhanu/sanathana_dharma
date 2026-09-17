@@ -1,0 +1,93 @@
+[
+  {
+    "id": "pub-bharateeyatha",
+    "title": "Bharateeyatha",
+    "author": "Satguru Sri Sivananda Murty",
+    "language": "Telugu",
+    "year": 2003,
+    "yearNote": "Two volumes, 2003 and 2005",
+    "format": "Book",
+    "cover": "/images/publications/bharateeyatha.jpg",
+    "description": "A compilation of more than 500 articles on Indian culture, history and dharma, originally written for Andhra Bhumi.",
+    "purchaseUrl": null,
+    "downloadUrl": null
+  },
+  {
+    "id": "pub-supatha",
+    "title": "Supatha",
+    "author": "Sanathana Supatha Publications",
+    "language": "Bilingual",
+    "year": 1998,
+    "yearNote": "Launched 1998; monthly, later bi-monthly",
+    "format": "Magazine",
+    "cover": "/images/publications/supatha.jpg",
+    "description": "A cultural magazine covering language, literature, music, poetry, art, history, temples and tradition.",
+    "purchaseUrl": null,
+    "downloadUrl": null
+  },
+  {
+    "id": "pub-margadarsakulu",
+    "title": "Margadarsakulu Maharshulu",
+    "author": "Satguru Sri Sivananda Murty",
+    "language": "Telugu",
+    "year": 2007,
+    "yearNote": "Two parts, 2007 and 2008",
+    "format": "Book",
+    "cover": "/images/publications/margadarsakulu.jpg",
+    "description": "On forty-one maharishis, drawn from the narrative of a twenty-eight day yagna held in 1994.",
+    "purchaseUrl": null,
+    "downloadUrl": null
+  },
+  {
+    "id": "pub-kathayoga",
+    "title": "Kathayoga",
+    "author": "Satguru Sri Sivananda Murty",
+    "language": "English, Telugu and Hindi",
+    "year": 2009,
+    "yearNote": null,
+    "format": "Commentary",
+    "cover": "/images/publications/kathayoga.jpg",
+    "description": "A commentary on the Katha Upanishad, published by Aditya Prakashan, New Delhi.",
+    "purchaseUrl": null,
+    "downloadUrl": null
+  },
+  {
+    "id": "pub-mana-katha",
+    "title": "Mana Katha",
+    "author": "Satguru Sri Sivananda Murty",
+    "language": "Telugu",
+    "year": null,
+    "yearNote": null,
+    "format": "History",
+    "cover": "/images/publications/mana-katha.jpg",
+    "description": "A history of Andhra Pradesh, adapted into a thirteen-episode serial broadcast by Doordarshan, Hyderabad, which received a state Nandi award.",
+    "purchaseUrl": null,
+    "downloadUrl": null
+  },
+  {
+    "id": "pub-tathagata-buddha",
+    "title": "Tathagata Buddha",
+    "author": "Satguru Sri Sivananda Murty",
+    "language": "English, Hindi and Telugu",
+    "year": 2007,
+    "yearNote": "Book edition 2007",
+    "format": "Film & Book",
+    "cover": "/images/publications/tathagata-buddha.jpg",
+    "description": "A feature film script, later published as an illustrated book. The film received the Special Jury Nandi award.",
+    "purchaseUrl": null,
+    "downloadUrl": null
+  },
+  {
+    "id": "pub-suvarnabhoomi",
+    "title": "Suvarnabhoomi",
+    "author": "Satguru Sri Sivananda Murty",
+    "language": "Telugu",
+    "year": 2008,
+    "yearNote": null,
+    "format": "Book",
+    "cover": "/images/publications/suvarnabhoomi.jpg",
+    "description": "On the cultural connections between India and South-East Asia. Published by Santhana Supatha Publications.",
+    "purchaseUrl": null,
+    "downloadUrl": null
+  }
+]

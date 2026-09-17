@@ -1,0 +1,47 @@
+[
+  {
+    "id": "eminent-citizen",
+    "trust": "Sanathana Dharma Charitable Trust",
+    "trustId": "sanathana-dharma",
+    "title": "Sivananda Eminent Citizen Awards",
+    "summary": "Annual recognition of eminent citizens of society, conferred with a cash award, a citation and a memento at a formal convocation.",
+    "icon": "award",
+    "accent": "indigo"
+  },
+  {
+    "id": "prathibha",
+    "trust": "Sanathana Dharma Charitable Trust",
+    "trustId": "sanathana-dharma",
+    "title": "Sree Ramanavami Prathibha Puraskaram",
+    "summary": "Felicitation of accomplished individuals on the occasion of Sree Ramanavami, encouraging sustained contribution to culture and scholarship.",
+    "icon": "sparkles",
+    "accent": "ochre"
+  },
+  {
+    "id": "sangeetha-vidya-nidhi",
+    "trust": "Siva Ganga Sangeeta Parishad",
+    "trustId": "siva-ganga",
+    "title": "Sangeetha Vidya Nidhi",
+    "summary": "A title conferred on musicians in recognition of accomplishment and standing in the Carnatic tradition.",
+    "icon": "music",
+    "accent": "banyan"
+  },
+  {
+    "id": "natya-vidya-nidhi",
+    "trust": "Siva Ganga Sangeeta Parishad",
+    "trustId": "siva-ganga",
+    "title": "Natya Vidya Nidhi",
+    "summary": "The corresponding title for dancers, recognising mastery of the classical dance tradition.",
+    "icon": "drama",
+    "accent": "indigo"
+  },
+  {
+    "id": "sarada-sangeetha-puraskaram",
+    "trust": "Siva Ganga Sangeeta Parishad",
+    "trustId": "siva-ganga",
+    "title": "Sarada Sangeetha Puraskaram",
+    "summary": "An award presented during the Sarada Sangeetotsavam to artists performing in the festival.",
+    "icon": "trophy",
+    "accent": "ochre"
+  }
+]

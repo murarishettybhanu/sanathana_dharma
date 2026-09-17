@@ -1,0 +1,77 @@
+{
+  "__note": "Mirrors the live site's About Guruji → Guruji submenu. Birth details, the 2005 doctorate, family names, publication titles, travel destinations and writing titles are all verified from sdctbheemili.org. Pages marked `needsContent` are photo galleries on the live site with no descriptive text.",
+  "sections": [
+    {
+      "slug": "biography",
+      "title": "Biography",
+      "lead": "Born 21 December 1928 at Rajahmundry, Andhra Pradesh.",
+      "icon": "user",
+      "body": [
+        "Satguru Sri Sivananda Murty was born on Marga Sirsha Sudha Navami of Vibhava Nama Samvatsaram, in Revati Nakshatram and Kanya Lagnam — Thursday, 21 December 1928, at 00:45 — in Rajahmundry, Andhra Pradesh.",
+        "He taught Sanathana Dharma as something to be lived rather than merely believed, holding together its theory and its daily practice, and drawing equally on the example of Lord Sri Rama and Lord Sri Krishna. From that pairing comes the teaching at the centre of his work: God as Man, and Man as God.",
+        "He wrote and spoke for the householder rather than the renunciate — for people with work, families and obligations, who wanted to know what dharma asked of them in the circumstances they actually had.",
+        "After retiring from government service he built a small house in a mango grove at Bheemunipatnam and named it Anandavan. Potti Sreeramulu Telugu University conferred a doctorate on him in 2005."
+      ],
+      "facts": [
+        { "label": "Born", "value": "21 December 1928, Rajahmundry" },
+        { "label": "Traditional reckoning", "value": "Marga Sirsha Sudha Navami, Vibhava Nama Samvatsaram; Revati Nakshatram, Kanya Lagnam" },
+        { "label": "Spouse", "value": "Smt Gangadevi" },
+        { "label": "Children", "value": "Sri K. Basavaraju, Smt B. M. Ambica, Smt V. S. Gayatri, Sri K. Rajasekhar" },
+        { "label": "Doctorate", "value": "Potti Sreeramulu Telugu University, 2005" }
+      ]
+    },
+    {
+      "slug": "travel",
+      "title": "Travel",
+      "lead": "Yatras to the sacred places of the Himalaya and the south.",
+      "icon": "route",
+      "body": [
+        "Guruji travelled to the traditional places of pilgrimage, and the Trust keeps a photographic record of those journeys."
+      ],
+      "items": [
+        { "title": "Kedar & Badari", "detail": "The Himalayan shrines of Kedarnath and Badrinath." },
+        { "title": "Kasi", "detail": "Varanasi — recorded visits in 2009 and 2011." },
+        { "title": "Srisailam", "detail": "The jyotirlinga on the Krishna, in 2010." },
+        { "title": "Jageshwar Yatra", "detail": "The temple complex in Uttarakhand, in 2009." }
+      ],
+      "needsContent": "The live page is a gallery. Dates and an account of each yatra would complete it."
+    },
+    {
+      "slug": "speeches",
+      "title": "Speeches",
+      "lead": "Recorded discourses, held in the audio archive.",
+      "icon": "mic",
+      "redirectTo": "/audios",
+      "body": [
+        "On the live site this menu entry points straight at the audio archive, where the discourses are grouped by the centre at which they were recorded."
+      ]
+    },
+    {
+      "slug": "publications",
+      "title": "Publications",
+      "lead": "Books, commentaries and the magazine Supatha.",
+      "icon": "book-open",
+      "redirectTo": "/publications",
+      "body": [
+        "Seven published works, from the collected Bharateeyatha articles to the Katha Upanishad commentary and the Tathagata Buddha film and book."
+      ]
+    },
+    {
+      "slug": "guruji-writings",
+      "title": "Guruji Writings",
+      "lead": "Shorter writings and collected messages.",
+      "icon": "pen-line",
+      "body": [
+        "Alongside the published books, the Trust keeps a collection of Guruji's shorter writings and messages."
+      ],
+      "items": [
+        { "title": "Mount Kailas", "detail": null },
+        { "title": "Manavi Chesukondam", "detail": null },
+        { "title": "Voice of Satguru", "detail": null },
+        { "title": "Sri Guruve Namaha", "detail": null },
+        { "title": "Satguru Messages", "detail": "Held on the live site with accompanying pictures, video and audio." }
+      ],
+      "needsContent": "The live page lists these titles without descriptions. A line on each would complete the page."
+    }
+  ]
+}

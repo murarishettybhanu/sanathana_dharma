@@ -1,0 +1,36 @@
+{
+  "name": "Sanathana Dharma Charitable Trust",
+  "shortName": "SDCT",
+  "location": "Bheemili",
+  "tagline": "The eternal system of values and principles of life",
+  "guru": {
+    "name": "Satguru Sri Sivananda Murty",
+    "honorific": "Satguru",
+    "epithet": "God as Man and Man as God",
+    "portrait": "/images/guruji.jpg",
+    "born": "1928-12-21",
+    "birthPlace": "Rajahmundry, Andhra Pradesh",
+    "birthDetail": "Marga Sirsha Sudha Navami of Vibhava Nama Samvatsaram, Revati Nakshatram, Kanya Lagnam — Thursday, 21 December 1928, 00:45"
+  },
+  "contact": {
+    "addressLines": [
+      "Sanathana Dharma Charitable Trust",
+      "Anandavanam, Bheemunipatnam – 531 163",
+      "Visakhapatnam District, Andhra Pradesh, India"
+    ],
+    "email": null,
+    "phone": null,
+    "__note": "Address verified from sdctbheemili.org/contact/sanathana-dharma-charitable-trust/. The live site publishes no public email or phone for the Trust; add them here when available."
+  },
+  "registration": {
+    "registeredOffice": "Anandavanam, Bheemunipatnam – 531 163, Visakhapatnam Dist., Andhra Pradesh, India",
+    "registeredOn": "2000-02-10"
+  },
+  "social": [
+    {
+      "label": "YouTube",
+      "icon": "youtube",
+      "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos"
+    }
+  ]
+}

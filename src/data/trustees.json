@@ -1,0 +1,22 @@
+{
+  "__note": "Names and roles verified from sdctbheemili.org. The live site also publishes personal telephone numbers for two trustees; those are deliberately omitted here — add them only if the Trust wants them republished.",
+  "registeredOffice": "Anandavanam, Bheemunipatnam – 531 163, Visakhapatnam Dist., Andhra Pradesh, India",
+  "registeredOn": "2000-02-10",
+  "notes": [
+    "The first four trustees are Guruji's children.",
+    "Three further trustees were appointed on 20 November 2005."
+  ],
+  "members": [
+    { "id": "t-basavaraju", "name": "Sri K. Basavaraju", "role": "Managing Trustee", "detail": "Business, Secunderabad", "family": true },
+    { "id": "t-ambica", "name": "Smt B. M. Ambica", "role": "Trustee", "detail": "Anandavanam, Bheemunipatnam", "family": true },
+    { "id": "t-gayatri", "name": "Smt V. S. Gayatri", "role": "Trustee", "detail": "Resident in the USA", "family": true },
+    { "id": "t-rajasekhar", "name": "Sri K. Rajasekhar", "role": "Trustee", "detail": "Business, Hyderabad", "family": true },
+    { "id": "t-raghavendran", "name": "Prof. R. Raghavendran", "role": "Trustee", "detail": "Retired Professor, Anandavanam", "family": false },
+    { "id": "t-ramanaiah-raja", "name": "Sri P. V. Ramanaiah Raja", "role": "Trustee", "detail": "Founder, Raja Lakshmi Foundation, Chennai", "family": false },
+    { "id": "t-gopal-reddy", "name": "Sri A. Gopal Reddy", "role": "Trustee", "detail": "Retired IPS officer, Secunderabad", "family": false },
+    { "id": "t-murali-krishna", "name": "Sri Chivukula Murali Krishna", "role": "Trustee", "detail": "Tax Consultant, Secunderabad", "family": false },
+    { "id": "t-appa-rao", "name": "Sri M. Appa Rao", "role": "Trustee", "detail": "Businessman, Visakhapatnam", "family": false },
+    { "id": "t-subrahmanyam", "name": "Sri L. V. Subrahmanyam, IAS", "role": "Trustee", "detail": "Principal Secretary, Government of Andhra Pradesh", "family": false },
+    { "id": "t-bhaskar-rao", "name": "Justice Sri V. Bhaskar Rao", "role": "Trustee", "detail": "Retired High Court Judge, Hyderabad", "family": false }
+  ]
+}

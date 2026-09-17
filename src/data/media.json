@@ -1,0 +1,36 @@
+{
+  "youtube": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
+  "__note": "The live site groups photo, video and audio archives by centre (Bheemunipatnam and Warangal) but does not expose a machine-readable index. Populate `items` from the Trust's archive, or point these sections at a CMS.",
+  "sections": [
+    {
+      "id": "photos",
+      "title": "Photos",
+      "icon": "image",
+      "lead": "Photographs from the festivals, honours and daily life of the two centres.",
+      "groups": [
+        { "id": "photos-bheemili", "label": "Bheemunipatnam", "items": [] },
+        { "id": "photos-warangal", "label": "Warangal", "items": [] }
+      ]
+    },
+    {
+      "id": "videos",
+      "title": "Videos",
+      "icon": "video",
+      "lead": "Recorded discourses, concerts and documentary work, published on the Trust's YouTube channel.",
+      "groups": [
+        { "id": "videos-bheemili", "label": "Bheemunipatnam", "items": [] },
+        { "id": "videos-warangal", "label": "Warangal", "items": [] }
+      ]
+    },
+    {
+      "id": "audios",
+      "title": "Audios",
+      "icon": "audio-lines",
+      "lead": "Guruji's speeches and discourses, grouped by the centre at which they were recorded.",
+      "groups": [
+        { "id": "audios-bheemili", "label": "Bheemunipatnam", "items": [] },
+        { "id": "audios-warangal", "label": "Warangal", "items": [] }
+      ]
+    }
+  ]
+}

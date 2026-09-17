@@ -1,0 +1,59 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Lets the site be redeployed from the Actions tab without a commit.
+  workflow_dispatch:
+
+# GITHUB_TOKEN needs these to publish a Pages artifact.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race; queue instead, but don't cancel one mid-publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # The audits are plain Node scripts and need no browser, so they gate
+      # the deploy: a contrast regression or a broken heading order fails here
+      # rather than reaching the site.
+      - name: Check colour contrast
+        run: npm run check:contrast
+
+      - name: Check accessibility
+        run: npm run check:a11y
+
+      - name: Build
+        # Served from https://<user>.github.io/<repo>/, so the base has to
+        # match the repository name.
+        run: VITE_BASE="/${GITHUB_REPOSITORY#*/}/" npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
