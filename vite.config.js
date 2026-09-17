@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import { copyFileSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, writeFileSync } from 'node:fs';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import path from 'node:path';
@@ -20,12 +20,26 @@ const base = process.env.VITE_BASE ?? '/';
  * underscore.
  */
 function githubPagesFallback() {
+  let config;
   return {
     name: 'github-pages-fallback',
     apply: 'build',
+    configResolved(resolved) {
+      config = resolved;
+    },
     closeBundle() {
-      copyFileSync('dist/index.html', 'dist/404.html');
-      writeFileSync('dist/.nojekyll', '');
+      // `apply: 'build'` also matches the SSR build that the accessibility
+      // audit runs (`vite build --ssr … --outDir .audit`), which emits no
+      // index.html. Reading the resolved config rather than assuming `dist`
+      // keeps this to the client build that actually produces one.
+      if (config.build.ssr) return;
+
+      const outDir = path.resolve(config.root, config.build.outDir);
+      const html = path.join(outDir, 'index.html');
+      if (!existsSync(html)) return;
+
+      copyFileSync(html, path.join(outDir, '404.html'));
+      writeFileSync(path.join(outDir, '.nojekyll'), '');
     },
   };
 }
