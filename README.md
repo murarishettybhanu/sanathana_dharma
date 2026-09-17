@@ -549,5 +549,40 @@ Still to come from the Trust: `events/sivaratri.jpg`,
 `anandavanam/*.jpg`. Every `<img>` hides itself on error, so a missing file
 shows the designed fallback rather than a broken-image glyph.
 
-**Deployment:** this is a client-routed SPA, so the host must rewrite all paths
-to `/index.html` or every URL except `/` will 404 on refresh.
+---
+
+## 8. Deployment
+
+Live at **https://murarishettybhanu.github.io/sanathana_dharma/**, published by
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) on every push to
+`main`. The contrast and accessibility audits run as gates, so a regression
+fails the build rather than reaching the site.
+
+Three things a Pages deployment of this app needs, all of them easy to miss:
+
+**A base path.** Project sites are served from `/<repo>/`, not the domain root.
+The workflow passes `VITE_BASE="/${GITHUB_REPOSITORY#*/}/"` so the base always
+matches the repository name, and `BrowserRouter` takes `basename` from
+`import.meta.env.BASE_URL`. A plain `npm run build` still produces a
+root-relative site, so `npm run preview` is unaffected.
+
+**Base-aware asset paths.** Vite rewrites asset URLs it can see in markup and
+CSS, but not strings that live in JSON or are assembled at runtime — and most
+of this site's images come from `src/data/*.json`. Those paths stay
+root-relative in the data, which is the honest way to describe them, and
+[`asset()`](src/lib/asset.js) applies the base at the point of use. Every
+`<img src>` and `background-image` goes through it.
+
+**An SPA fallback.** GitHub Pages has no rewrite rules: `/activities/…` is a
+real 404 to the server. The build copies `index.html` to `404.html`, which
+boots the router and resolves the route on the client. Deep links therefore
+return a 404 *status* while rendering the correct page — `curl` reports 404 and
+the browser shows the right thing, so verify these in a browser, not with a
+status check. `.nojekyll` stops Pages stripping underscore-prefixed files.
+
+To deploy elsewhere, drop `VITE_BASE` and point the host's SPA rewrite at
+`/index.html`.
+
+```bash
+npm run build:pages   # build exactly as CI does, with the Pages base
+```

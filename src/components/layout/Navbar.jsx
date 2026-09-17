@@ -58,7 +58,7 @@ export function Navbar() {
     cn(
       // nowrap: two-word labels like "Honors & Awards" would otherwise wrap and
       // leave the bar an uneven height.
-      'relative whitespace-nowrap rounded-md px-2.5 py-2 text-sm font-medium transition-colors duration-200',
+      'relative whitespace-nowrap rounded-md px-2 py-2 text-sm font-medium transition-colors duration-200 2xl:px-3',
       isActive ? 'text-indigo-700' : 'text-ink-700 hover:text-indigo-600',
     );
 
@@ -75,7 +75,7 @@ export function Navbar() {
           <Logo />
 
           {/* ---------------- Desktop navigation ---------------- */}
-          <ul className="hidden items-center gap-0.5 min-[1380px]:flex">
+          <ul className="hidden items-center xl:flex 2xl:gap-0.5">
             {navigation.map((item) => (
               <li key={item.label}>
                 {item.groups || item.children ? (
@@ -132,7 +132,7 @@ export function Navbar() {
               onClick={() => setIsOpen(true)}
               aria-expanded={isOpen}
               aria-controls="mobile-menu"
-              className="flex size-11 items-center justify-center rounded-full text-ink-800 transition-colors hover:bg-indigo-50 min-[1380px]:hidden"
+              className="flex size-11 items-center justify-center rounded-full text-ink-800 transition-colors hover:bg-indigo-50 xl:hidden"
             >
               <Menu className="size-6" aria-hidden="true" />
               <span className="sr-only">Open menu</span>
@@ -157,7 +157,7 @@ export function Navbar() {
             // without it that off-screen position widens the document, which
             // in turn corrupts the scrollbar-width measurement in
             // useLockBodyScroll and shoves the page sideways.
-            className="fixed inset-0 z-50 overflow-hidden min-[1380px]:hidden"
+            className="fixed inset-0 z-50 overflow-hidden xl:hidden"
             initial="closed"
             animate="open"
             exit="closed"

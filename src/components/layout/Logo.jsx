@@ -21,10 +21,10 @@ export function Logo({ compact = false }) {
 
       {!compact && (
         <span className="flex flex-col leading-none">
-          <span className="whitespace-nowrap font-display text-base font-semibold tracking-tight text-indigo-800 sm:text-lg xl:text-xl">
+          <span className="whitespace-nowrap font-display text-base font-semibold tracking-tight text-indigo-800 sm:text-lg 2xl:text-xl">
             Sanathana Dharma
           </span>
-          <span className="mt-1.5 whitespace-nowrap text-[0.62rem] font-medium uppercase tracking-[0.14em] text-ink-500 sm:text-[0.72rem] sm:tracking-[0.16em] xl:text-[0.78rem] xl:tracking-[0.18em]">
+          <span className="mt-1.5 whitespace-nowrap text-[0.62rem] font-medium uppercase tracking-[0.14em] text-ink-500 sm:text-[0.72rem] sm:tracking-[0.16em] 2xl:text-[0.78rem] 2xl:tracking-[0.18em]">
             Charitable Trust · {site.location}
           </span>
         </span>
