@@ -30,6 +30,15 @@ export function PublicationsGrid({ heading = true }) {
           <Reveal as="li" key={item.id} delay={i * 0.08} className="h-full">
             <article className="group flex h-full flex-col overflow-hidden rounded-[var(--radius-card)] border border-line bg-white transition-all duration-500 ease-[var(--ease-calm)] hover:-translate-y-1.5 hover:shadow-lift">
               <div className="relative aspect-[3/4] overflow-hidden bg-sand-100">
+                {/* Under the cover; shown when the cover hides itself on
+                    error. Paint order, not a negative z-index, which would
+                    put it behind the container's own background. */}
+                <span
+                  aria-hidden="true"
+                  className="absolute inset-0 flex items-center justify-center text-sand-300"
+                >
+                  <BookOpen className="size-14" strokeWidth={1} />
+                </span>
                 <img
                   src={asset(item.cover)}
                   alt={`Cover of ${item.title}`}
@@ -38,16 +47,8 @@ export function PublicationsGrid({ heading = true }) {
                   // No artwork supplied yet: hide the element rather than let
                   // the browser draw its broken-image glyph over the fallback.
                   onError={(e) => { e.currentTarget.style.visibility = 'hidden'; }}
-                  className="size-full object-cover transition-transform duration-700 ease-[var(--ease-calm)] group-hover:scale-[1.04]"
+                  className="relative size-full object-cover transition-transform duration-700 ease-[var(--ease-calm)] group-hover:scale-[1.04]"
                 />
-                {/* Sits behind the <img>; visible whenever a cover is missing,
-                    so an absent asset reads as deliberate rather than broken. */}
-                <span
-                  aria-hidden="true"
-                  className="absolute inset-0 -z-10 flex items-center justify-center text-sand-300"
-                >
-                  <BookOpen className="size-14" strokeWidth={1} />
-                </span>
               </div>
 
               <div className="flex flex-1 flex-col p-6">

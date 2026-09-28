@@ -1,5 +1,8 @@
 [
-  { "label": "Home", "to": "/" },
+  {
+    "label": "Home",
+    "to": "/"
+  },
   {
     "label": "About Guruji",
     "match": "/about-guruji",
@@ -8,60 +11,117 @@
         "label": "Guruji",
         "to": "/about-guruji/guruji",
         "children": [
-          { "label": "Biography", "to": "/about-guruji/guruji/biography" },
-          { "label": "Travel", "to": "/about-guruji/guruji/travel" },
-          { "label": "Speeches", "to": "/audios" },
-          { "label": "Publications", "to": "/about-guruji/guruji/publications" },
-          { "label": "Guruji Writings", "to": "/about-guruji/guruji/guruji-writings" }
+          {
+            "label": "Biography",
+            "to": "/about-guruji/guruji/biography"
+          },
+          {
+            "label": "Travel",
+            "to": "/about-guruji/guruji/travel"
+          },
+          {
+            "label": "Speeches",
+            "to": "/audios"
+          },
+          {
+            "label": "Publications",
+            "to": "/about-guruji/guruji/publications"
+          },
+          {
+            "label": "Guruji Writings",
+            "to": "/about-guruji/guruji/guruji-writings"
+          }
         ]
       },
       {
         "label": "Anandavanam",
         "to": "/about-guruji/anandavanam",
         "children": [
-          { "label": "Guruji's Residence", "to": "/about-guruji/anandavanam/gurujis-residence" },
-          { "label": "Yoga Ganapati Temple", "to": "/about-guruji/anandavanam/yoga-ganapati-temple" },
-          { "label": "Guruji's Library", "to": "/about-guruji/anandavanam/gurujis-library" },
-          { "label": "Yagasala", "to": "/about-guruji/anandavanam/yagasala" }
+          {
+            "label": "Guruji's Residence",
+            "to": "/about-guruji/anandavanam/gurujis-residence"
+          },
+          {
+            "label": "Yoga Ganapati Temple",
+            "to": "/about-guruji/anandavanam/yoga-ganapati-temple"
+          },
+          {
+            "label": "Guruji's Library",
+            "to": "/about-guruji/anandavanam/gurujis-library"
+          },
+          {
+            "label": "Yagasala",
+            "to": "/about-guruji/anandavanam/yagasala"
+          }
         ]
       },
       {
         "label": "Sanathana Dharma Charitable Trust",
         "to": "/about-guruji/sanathana-dharma-charitable-trust",
         "children": [
-          { "label": "Objectives", "to": "/about-guruji/sanathana-dharma-charitable-trust/objectives" },
-          { "label": "Trustees", "to": "/about-guruji/sanathana-dharma-charitable-trust/trustees" }
+          {
+            "label": "Objectives",
+            "to": "/about-guruji/sanathana-dharma-charitable-trust/objectives"
+          },
+          {
+            "label": "Trustees",
+            "to": "/about-guruji/sanathana-dharma-charitable-trust/trustees"
+          }
         ]
       },
       {
         "label": "Other Centres",
         "children": [
-          { "label": "Saptadham, Warangal", "to": "/about-guruji/saptadham-warangal" },
-          { "label": "Balusupadu", "href": "https://srigurudham.org/" }
+          {
+            "label": "Saptadham, Warangal",
+            "to": "/about-guruji/saptadham-warangal"
+          },
+          {
+            "label": "Balusupadu",
+            "href": "https://srigurudham.org/"
+          }
         ]
       },
       {
         "label": "Mahalakshmi Temple Charitable Trust",
         "to": "/about-guruji/mahalakshmi-temple-charitable-trust",
         "children": [
-          { "label": "Objectives", "to": "/about-guruji/mahalakshmi-temple-charitable-trust/objectives" },
-          { "label": "Trustees", "to": "/about-guruji/mahalakshmi-temple-charitable-trust/trustees" }
+          {
+            "label": "Objectives",
+            "to": "/about-guruji/mahalakshmi-temple-charitable-trust/objectives"
+          },
+          {
+            "label": "Trustees",
+            "to": "/about-guruji/mahalakshmi-temple-charitable-trust/trustees"
+          }
         ]
       },
       {
         "label": "Siva Ganga Sangeeta Parishad",
         "to": "/about-guruji/siva-ganga-sangeeta-parishad",
         "children": [
-          { "label": "Objectives", "to": "/about-guruji/siva-ganga-sangeeta-parishad/objectives" },
-          { "label": "Trustees", "to": "/about-guruji/siva-ganga-sangeeta-parishad/trustees" }
+          {
+            "label": "Objectives",
+            "to": "/about-guruji/siva-ganga-sangeeta-parishad/objectives"
+          },
+          {
+            "label": "Trustees",
+            "to": "/about-guruji/siva-ganga-sangeeta-parishad/trustees"
+          }
         ]
       },
       {
         "label": "Sivanandaguru Cultural Trust",
         "to": "/about-guruji/sivanandaguru-cultural-trust",
         "children": [
-          { "label": "Objectives", "to": "/about-guruji/sivanandaguru-cultural-trust/objectives" },
-          { "label": "Trustees", "to": "/about-guruji/sivanandaguru-cultural-trust/trustees" }
+          {
+            "label": "Objectives",
+            "to": "/about-guruji/sivanandaguru-cultural-trust/objectives"
+          },
+          {
+            "label": "Trustees",
+            "to": "/about-guruji/sivanandaguru-cultural-trust/trustees"
+          }
         ]
       }
     ]
@@ -75,48 +135,102 @@
         "label": "Sanathana Dharma Charitable Trust",
         "to": "/activities/sanathana-dharma-charitable-trust",
         "children": [
-          { "label": "Sivananda Eminent Citizen Awards", "to": "/activities/sanathana-dharma-charitable-trust/sivananda-eminent-citizen-awards" },
-          { "label": "Sree Ramanavami Prathibha Puraskaram", "to": "/activities/sanathana-dharma-charitable-trust/sree-ramanavami-prathibha-puraskaram" },
-          { "label": "Sree Krishna Janmashtami", "to": "/activities/sanathana-dharma-charitable-trust/sree-krishna-janmashtami" },
-          { "label": "July 11th", "to": "/activities/sanathana-dharma-charitable-trust/july-11th" },
-          { "label": "Other Events", "to": "/activities/sanathana-dharma-charitable-trust/other-events" }
+          {
+            "label": "Sivananda Eminent Citizen Awards",
+            "to": "/activities/sanathana-dharma-charitable-trust/sivananda-eminent-citizen-awards"
+          },
+          {
+            "label": "Sree Ramanavami Prathibha Puraskaram",
+            "to": "/activities/sanathana-dharma-charitable-trust/sree-ramanavami-prathibha-puraskaram"
+          },
+          {
+            "label": "Sree Krishna Janmashtami",
+            "to": "/activities/sanathana-dharma-charitable-trust/sree-krishna-janmashtami"
+          },
+          {
+            "label": "July 11th",
+            "to": "/activities/sanathana-dharma-charitable-trust/july-11th"
+          },
+          {
+            "label": "Other Events",
+            "to": "/activities/sanathana-dharma-charitable-trust/other-events"
+          }
         ]
       },
       {
         "label": "Siva Ganga Sangeeta Parishad",
         "to": "/activities/siva-ganga-sangeeta-parishad",
         "children": [
-          { "label": "Annual Music Festival", "to": "/activities/siva-ganga-sangeeta-parishad/annual-music-festival" },
-          { "label": "Sarada Sangeetotsavam", "to": "/activities/siva-ganga-sangeeta-parishad/sarada-sangeetotsavam" },
-          { "label": "Vaggeyakara Festival", "to": "/activities/siva-ganga-sangeeta-parishad/vaggeyakara-festival" },
-          { "label": "Other Events", "to": "/activities/siva-ganga-sangeeta-parishad/other-events" }
+          {
+            "label": "Annual Music Festival",
+            "to": "/activities/siva-ganga-sangeeta-parishad/annual-music-festival"
+          },
+          {
+            "label": "Sarada Sangeetotsavam",
+            "to": "/activities/siva-ganga-sangeeta-parishad/sarada-sangeetotsavam"
+          },
+          {
+            "label": "Vaggeyakara Festival",
+            "to": "/activities/siva-ganga-sangeeta-parishad/vaggeyakara-festival"
+          },
+          {
+            "label": "Other Events",
+            "to": "/activities/siva-ganga-sangeeta-parishad/other-events"
+          }
         ]
       },
       {
         "label": "Mahalakshmi Temple Charitable Trust",
         "to": "/activities/mahalakshmi-temple-charitable-trust",
         "children": [
-          { "label": "Vasantha Navaratrulu", "to": "/activities/mahalakshmi-temple-charitable-trust/vasantha-navaratrulu" },
-          { "label": "Sarad Navaratrulu (Daseera)", "to": "/activities/mahalakshmi-temple-charitable-trust/sarad-navaratrulu-daseera" },
-          { "label": "Other Events", "to": "/activities/mahalakshmi-temple-charitable-trust/other-events" }
+          {
+            "label": "Vasantha Navaratrulu",
+            "to": "/activities/mahalakshmi-temple-charitable-trust/vasantha-navaratrulu"
+          },
+          {
+            "label": "Sarad Navaratrulu (Daseera)",
+            "to": "/activities/mahalakshmi-temple-charitable-trust/sarad-navaratrulu-daseera"
+          },
+          {
+            "label": "Other Events",
+            "to": "/activities/mahalakshmi-temple-charitable-trust/other-events"
+          }
         ]
       },
       {
         "label": "Sivanandaguru Cultural Trust",
         "to": "/activities/sivanandaguru-cultural-trust",
         "children": [
-          { "label": "Guruji's Birthday", "to": "/activities/sivanandaguru-cultural-trust/gurujis-birthday" },
-          { "label": "Maha Sivaratri", "to": "/activities/sivanandaguru-cultural-trust/maha-sivaratri" },
-          { "label": "Guru Poornima Celebrations", "to": "/activities/sivanandaguru-cultural-trust/guru-poornima-celebrations" },
-          { "label": "Other Events", "to": "/activities/sivanandaguru-cultural-trust/other-events" }
+          {
+            "label": "Guruji's Birthday",
+            "to": "/activities/sivanandaguru-cultural-trust/gurujis-birthday"
+          },
+          {
+            "label": "Maha Sivaratri",
+            "to": "/activities/sivanandaguru-cultural-trust/maha-sivaratri"
+          },
+          {
+            "label": "Guru Poornima Celebrations",
+            "to": "/activities/sivanandaguru-cultural-trust/guru-poornima-celebrations"
+          },
+          {
+            "label": "Other Events",
+            "to": "/activities/sivanandaguru-cultural-trust/other-events"
+          }
         ]
       },
       {
         "label": "Balusupadu",
         "href": "https://srigurudham.org/",
         "children": [
-          { "label": "Gurudham", "href": "https://srigurudham.org/" },
-          { "label": "Kailasa Giri", "href": "https://srigurudham.org/" }
+          {
+            "label": "Gurudham",
+            "href": "https://srigurudham.org/"
+          },
+          {
+            "label": "Kailasa Giri",
+            "href": "https://srigurudham.org/"
+          }
         ]
       }
     ]
@@ -130,33 +244,76 @@
         "label": "Sanathana Dharma Charitable Trust",
         "to": "/honors-awards/sanathana-dharma-charitable-trust",
         "children": [
-          { "label": "Sivananda Eminent Citizen Awards", "to": "/honors-awards/sanathana-dharma-charitable-trust/sivananda-eminent-citizen-awards" },
-          { "label": "Sree Ramanavami Prathibha Puraskaram", "to": "/honors-awards/sanathana-dharma-charitable-trust/sree-ramanavami-prathibha-puraskaram" }
+          {
+            "label": "Sivananda Eminent Citizen Awards",
+            "to": "/honors-awards/sanathana-dharma-charitable-trust/sivananda-eminent-citizen-awards"
+          },
+          {
+            "label": "Sree Ramanavami Prathibha Puraskaram",
+            "to": "/honors-awards/sanathana-dharma-charitable-trust/sree-ramanavami-prathibha-puraskaram"
+          },
+          {
+            "label": "Sri Krishna Jayanti Puraskaram",
+            "to": "/honors-awards/sanathana-dharma-charitable-trust/sri-krishna-jayanti-puraskaram"
+          }
         ]
       },
       {
         "label": "Siva Ganga Sangeeta Parishad",
         "to": "/honors-awards/siva-ganga-sangeeta-parishad",
         "children": [
-          { "label": "Sangeetha Vidya Nidhi", "to": "/honors-awards/siva-ganga-sangeeta-parishad/sangeetha-vidya-nidhi" },
-          { "label": "Natya Vidya Nidhi", "to": "/honors-awards/siva-ganga-sangeeta-parishad/natya-vidya-nidhi" },
-          { "label": "Sarada Sangeetha Puraskaram", "to": "/honors-awards/siva-ganga-sangeeta-parishad/sarada-sangeetha-puraskaram" }
+          {
+            "label": "Sangeetha Vidya Nidhi",
+            "to": "/honors-awards/siva-ganga-sangeeta-parishad/sangeetha-vidya-nidhi"
+          },
+          {
+            "label": "Natya Vidya Nidhi",
+            "to": "/honors-awards/siva-ganga-sangeeta-parishad/natya-vidya-nidhi"
+          },
+          {
+            "label": "Sarada Sangeetha Puraskaram",
+            "to": "/honors-awards/siva-ganga-sangeeta-parishad/sarada-sangeetha-puraskaram"
+          }
         ]
       }
     ]
   },
-  { "label": "Photos", "to": "/photos" },
-  { "label": "Videos", "to": "/videos" },
-  { "label": "LIVE", "to": "/live" },
-  { "label": "Audios", "to": "/audios" },
+  {
+    "label": "Photos",
+    "to": "/photos"
+  },
+  {
+    "label": "Videos",
+    "to": "/videos"
+  },
+  {
+    "label": "LIVE",
+    "to": "/live"
+  },
+  {
+    "label": "Audios",
+    "to": "/audios"
+  },
   {
     "label": "Contacts",
     "match": "/contact",
     "children": [
-      { "label": "Sanathana Dharma Charitable Trust", "to": "/contact/sanathana-dharma-charitable-trust" },
-      { "label": "Mahalakshmi Temple Charitable Trust", "to": "/contact/mahalakshmi-temple-charitable-trust" },
-      { "label": "Sivanandaguru Cultural Trust", "to": "/contact/sivanandaguru-cultural-trust" },
-      { "label": "Siva Ganga Sangeeta Parishad", "to": "/contact/siva-ganga-sangeeta-parishad" }
+      {
+        "label": "Sanathana Dharma Charitable Trust",
+        "to": "/contact/sanathana-dharma-charitable-trust"
+      },
+      {
+        "label": "Mahalakshmi Temple Charitable Trust",
+        "to": "/contact/mahalakshmi-temple-charitable-trust"
+      },
+      {
+        "label": "Sivanandaguru Cultural Trust",
+        "to": "/contact/sivanandaguru-cultural-trust"
+      },
+      {
+        "label": "Siva Ganga Sangeeta Parishad",
+        "to": "/contact/siva-ganga-sangeeta-parishad"
+      }
     ]
   }
 ]

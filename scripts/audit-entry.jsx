@@ -59,6 +59,7 @@ const PAGES = {
   HonoursIndex: ['/honors-awards', '/honors-awards', HonoursIndex],
   TrustHonours: ['/honors-awards/:trustId', '/honors-awards/siva-ganga-sangeeta-parishad', TrustHonours],
   HonourDetail: ['/honors-awards/:trustId/:honourSlug', '/honors-awards/siva-ganga-sangeeta-parishad/natya-vidya-nidhi', HonourDetail],
+  HonourWithSections: ['/honors-awards/:trustId/:honourSlug', '/honors-awards/sanathana-dharma-charitable-trust/sri-krishna-jayanti-puraskaram', HonourDetail],
   Objectives: ['/objectives', '/objectives', Objectives],
   Publications: ['/publications', '/publications', Publications],
   Trusts: ['/trusts', '/trusts', Trusts],

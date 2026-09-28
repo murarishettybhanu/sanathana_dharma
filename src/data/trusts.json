@@ -104,6 +104,300 @@
         "summary": "Felicitation of accomplished individuals on the occasion of Sree Ramanavami, encouraging sustained contribution to culture and scholarship.",
         "icon": "sparkles",
         "accent": "ochre"
+      },
+      {
+        "slug": "sri-krishna-jayanti-puraskaram",
+        "title": "Sri Krishna Jayanti Puraskaram",
+        "summary": "Conferred at the Sri Krishna Jayanti celebrations, in recognition of contribution to the cultural and devotional life the festival gathers.",
+        "icon": "medal",
+        "accent": "banyan",
+        "__placeholder": "Dummy content for review. The 2026 date (4 September) is verified from the Trust\u2019s invitation; every section\u2019s photographs and videos, and all five previous-year dates and venues, are scaffolding to be replaced with the Trust\u2019s own records.",
+        "sections": [
+          {
+            "id": "invitation",
+            "letter": "A",
+            "title": "Invitation",
+            "summary": "The printed invitation and the announcement circulated ahead of the celebration.",
+            "photos": [
+              {
+                "id": "invitation-1",
+                "caption": "Invitation card, front",
+                "src": "/images/honours/sri-krishna-jayanti/invitation-1.jpg"
+              },
+              {
+                "id": "invitation-2",
+                "caption": "Invitation card, reverse",
+                "src": "/images/honours/sri-krishna-jayanti/invitation-2.jpg"
+              }
+            ],
+            "videos": []
+          },
+          {
+            "id": "sree-krishna-pooja",
+            "letter": "B",
+            "title": "Sree Krishna Pooja",
+            "summary": "The pooja with which the evening opens.",
+            "photos": [
+              {
+                "id": "pooja-1",
+                "caption": "Alankaram",
+                "src": "/images/honours/sri-krishna-jayanti/pooja-1.jpg"
+              },
+              {
+                "id": "pooja-2",
+                "caption": "Archana",
+                "src": "/images/honours/sri-krishna-jayanti/pooja-2.jpg"
+              },
+              {
+                "id": "pooja-3",
+                "caption": "Deeparadhana",
+                "src": "/images/honours/sri-krishna-jayanti/pooja-3.jpg"
+              },
+              {
+                "id": "pooja-4",
+                "caption": "Prasadam",
+                "src": "/images/honours/sri-krishna-jayanti/pooja-4.jpg"
+              }
+            ],
+            "videos": []
+          },
+          {
+            "id": "cultural-programme",
+            "letter": "C",
+            "title": "Cultural Programme",
+            "summary": "Classical dance and flute, offered before the felicitations.",
+            "photos": [
+              {
+                "id": "cultural-1",
+                "caption": "Bharatanatyam recital",
+                "src": "/images/honours/sri-krishna-jayanti/cultural-1.jpg"
+              },
+              {
+                "id": "cultural-2",
+                "caption": "Dance ensemble",
+                "src": "/images/honours/sri-krishna-jayanti/cultural-2.jpg"
+              },
+              {
+                "id": "cultural-3",
+                "caption": "Flute recital",
+                "src": "/images/honours/sri-krishna-jayanti/cultural-3.jpg"
+              },
+              {
+                "id": "cultural-4",
+                "caption": "Accompanists",
+                "src": "/images/honours/sri-krishna-jayanti/cultural-4.jpg"
+              }
+            ],
+            "videos": [
+              {
+                "id": "cultural-v1",
+                "title": "Dance recital \u2014 full performance",
+                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
+                "thumbnail": "/images/honours/sri-krishna-jayanti/cultural-v1.jpg"
+              },
+              {
+                "id": "cultural-v2",
+                "title": "Flute recital \u2014 full performance",
+                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
+                "thumbnail": "/images/honours/sri-krishna-jayanti/cultural-v2.jpg"
+              }
+            ]
+          },
+          {
+            "id": "managing-trustee-speech",
+            "letter": "D",
+            "title": "Managing Trustee's Speech",
+            "summary": "Address by Sri K. Basavaraju, Managing Trustee.",
+            "photos": [
+              {
+                "id": "trustee-1",
+                "caption": "At the lectern",
+                "src": "/images/honours/sri-krishna-jayanti/trustee-1.jpg"
+              },
+              {
+                "id": "trustee-2",
+                "caption": "Addressing the hall",
+                "src": "/images/honours/sri-krishna-jayanti/trustee-2.jpg"
+              }
+            ],
+            "videos": [
+              {
+                "id": "trustee-v1",
+                "title": "Managing Trustee \u2014 address in full",
+                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
+                "thumbnail": "/images/honours/sri-krishna-jayanti/trustee-v1.jpg"
+              }
+            ]
+          },
+          {
+            "id": "rajasekhar-speech",
+            "letter": "E",
+            "title": "Sri K. Rajasekhar's Speech",
+            "summary": "Address by Sri K. Rajasekhar, Trustee.",
+            "photos": [
+              {
+                "id": "rajasekhar-1",
+                "caption": "At the lectern",
+                "src": "/images/honours/sri-krishna-jayanti/rajasekhar-1.jpg"
+              },
+              {
+                "id": "rajasekhar-2",
+                "caption": "With the gathering",
+                "src": "/images/honours/sri-krishna-jayanti/rajasekhar-2.jpg"
+              }
+            ],
+            "videos": [
+              {
+                "id": "rajasekhar-v1",
+                "title": "Sri K. Rajasekhar \u2014 address in full",
+                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
+                "thumbnail": "/images/honours/sri-krishna-jayanti/rajasekhar-v1.jpg"
+              }
+            ]
+          },
+          {
+            "id": "book-release",
+            "letter": "F",
+            "title": "Book Release",
+            "summary": "Two titles released during the evening.",
+            "photos": [
+              {
+                "id": "book-release-1",
+                "caption": "First title \u2014 unveiling",
+                "src": "/images/honours/sri-krishna-jayanti/book-release-1.jpg"
+              },
+              {
+                "id": "book-release-2",
+                "caption": "First title \u2014 with the author",
+                "src": "/images/honours/sri-krishna-jayanti/book-release-2.jpg"
+              },
+              {
+                "id": "book-release-3",
+                "caption": "Second title \u2014 unveiling",
+                "src": "/images/honours/sri-krishna-jayanti/book-release-3.jpg"
+              },
+              {
+                "id": "book-release-4",
+                "caption": "Second title \u2014 with the author",
+                "src": "/images/honours/sri-krishna-jayanti/book-release-4.jpg"
+              }
+            ],
+            "videos": [
+              {
+                "id": "book-release-v1",
+                "title": "Book release \u2014 first title",
+                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
+                "thumbnail": "/images/honours/sri-krishna-jayanti/book-release-v1.jpg"
+              },
+              {
+                "id": "book-release-v2",
+                "title": "Book release \u2014 second title",
+                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
+                "thumbnail": "/images/honours/sri-krishna-jayanti/book-release-v2.jpg"
+              }
+            ]
+          },
+          {
+            "id": "awardees",
+            "letter": "G",
+            "title": "Awardees: Felicitation & Response",
+            "summary": "The conferral of the Puraskaram, and the recipients\u2019 responses.",
+            "photos": [
+              {
+                "id": "awardees-1",
+                "caption": "Conferral of the citation",
+                "src": "/images/honours/sri-krishna-jayanti/awardees-1.jpg"
+              },
+              {
+                "id": "awardees-2",
+                "caption": "Presentation of the memento",
+                "src": "/images/honours/sri-krishna-jayanti/awardees-2.jpg"
+              },
+              {
+                "id": "awardees-3",
+                "caption": "Recipient responding",
+                "src": "/images/honours/sri-krishna-jayanti/awardees-3.jpg"
+              },
+              {
+                "id": "awardees-4",
+                "caption": "With the trustees",
+                "src": "/images/honours/sri-krishna-jayanti/awardees-4.jpg"
+              }
+            ],
+            "videos": [
+              {
+                "id": "awardees-v1",
+                "title": "Felicitation ceremony",
+                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
+                "thumbnail": "/images/honours/sri-krishna-jayanti/awardees-v1.jpg"
+              },
+              {
+                "id": "awardees-v2",
+                "title": "Awardees\u2019 responses",
+                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
+                "thumbnail": "/images/honours/sri-krishna-jayanti/awardees-v2.jpg"
+              }
+            ]
+          },
+          {
+            "id": "audience",
+            "letter": "H",
+            "title": "Audience & Hall",
+            "summary": "The gathering, and the hall at Tivoli Garden.",
+            "photos": [
+              {
+                "id": "audience-1",
+                "caption": "The hall before the programme",
+                "src": "/images/honours/sri-krishna-jayanti/audience-1.jpg"
+              },
+              {
+                "id": "audience-2",
+                "caption": "The gathering",
+                "src": "/images/honours/sri-krishna-jayanti/audience-2.jpg"
+              },
+              {
+                "id": "audience-3",
+                "caption": "Stage and backdrop",
+                "src": "/images/honours/sri-krishna-jayanti/audience-3.jpg"
+              },
+              {
+                "id": "audience-4",
+                "caption": "Annadanam",
+                "src": "/images/honours/sri-krishna-jayanti/audience-4.jpg"
+              }
+            ],
+            "videos": []
+          }
+        ],
+        "date": "2026-09-04",
+        "venue": "Tivoli Garden, Secunderabad",
+        "previousYears": [
+          {
+            "year": 2025,
+            "date": "2025-08-16",
+            "venue": "Tivoli Garden, Secunderabad"
+          },
+          {
+            "year": 2024,
+            "date": "2024-08-26",
+            "venue": "Tivoli Garden, Secunderabad"
+          },
+          {
+            "year": 2023,
+            "date": "2023-09-07",
+            "venue": "Anandavanam, Bheemunipatnam"
+          },
+          {
+            "year": 2022,
+            "date": "2022-08-19",
+            "venue": "Anandavanam, Bheemunipatnam"
+          },
+          {
+            "year": 2021,
+            "date": "2021-08-30",
+            "venue": "Gurudham, Warangal"
+          }
+        ]
       }
     ],
     "contact": {
