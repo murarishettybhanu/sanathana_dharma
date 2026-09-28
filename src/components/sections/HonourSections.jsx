@@ -1,4 +1,4 @@
-import { ExternalLink, Image as ImageIcon, Play } from 'lucide-react';
+import { Clock, ExternalLink, Image as ImageIcon, Play } from 'lucide-react';
 
 import { cn } from '@/lib/cn';
 import { asset } from '@/lib/asset';
@@ -75,11 +75,11 @@ function PhotoGrid({ photos, sectionTitle }) {
       <h3 className="mt-8 text-xs font-semibold uppercase tracking-[0.2em] text-ochre-600">
         Photographs
       </h3>
-      <ul className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <ul className="mt-5 grid gap-5 lg:grid-cols-2">
         {photos.map((photo, i) => (
           <Reveal as="li" key={photo.id} delay={i * 0.04}>
             <figure className="group overflow-hidden rounded-[var(--radius-card)] border border-line bg-white">
-              <div className="relative aspect-[4/3] overflow-hidden bg-sand-100">
+              <div className="relative aspect-[3/1] overflow-hidden bg-sand-100">
                 {/* Sits under the image; visible only once the image hides
                     itself on error. Paint order does this — a negative
                     z-index would put it behind the container's background. */}
@@ -111,6 +111,16 @@ function PhotoGrid({ photos, sectionTitle }) {
       </ul>
     </>
   );
+}
+
+/** mm:ss, or h:mm:ss past the hour. */
+function formatTimestamp(total) {
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const sec = total % 60;
+  return h
+    ? `${h}:${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}`
+    : `${m}:${String(sec).padStart(2, '0')}`;
 }
 
 function VideoList({ videos, sectionTitle }) {
@@ -147,16 +157,28 @@ function VideoList({ videos, sectionTitle }) {
                       {video.title}
                       <span className="sr-only">
                         {' '}
-                        — {sectionTitle} (opens in a new tab)
+                        — {sectionTitle}
+                        {typeof video.startSeconds === 'number'
+                          ? `, from ${formatTimestamp(video.startSeconds)}`
+                          : ''}{' '}
+                        (opens in a new tab)
                       </span>
                     </a>
                   ) : (
                     video.title
                   )}
                 </h4>
-                <p className="mt-1.5 inline-flex items-center gap-1.5 text-xs text-ink-500">
-                  <ExternalLink className="size-3" aria-hidden="true" />
-                  On the Trust&apos;s YouTube channel
+                <p className="mt-1.5 inline-flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink-500">
+                  {typeof video.startSeconds === 'number' && (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-0.5 font-semibold text-indigo-700">
+                      <Clock className="size-3" aria-hidden="true" />
+                      {formatTimestamp(video.startSeconds)}
+                    </span>
+                  )}
+                  <span className="inline-flex items-center gap-1.5">
+                    <ExternalLink className="size-3" aria-hidden="true" />
+                    Opens the recording at this point
+                  </span>
                 </p>
               </div>
             </article>

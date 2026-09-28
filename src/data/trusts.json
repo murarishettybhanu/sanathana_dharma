@@ -108,29 +108,31 @@
       {
         "slug": "sri-krishna-jayanti-puraskaram",
         "title": "Sri Krishna Jayanti Puraskaram",
-        "summary": "Conferred at the Sri Krishna Jayanti celebrations, in recognition of contribution to the cultural and devotional life the festival gathers.",
+        "summary": "Conferred at the Sri Krishna Jayanthi celebrations. Photographs and the full recording of the 2026 evening are below, each section linking into the video at the point it begins.",
         "icon": "medal",
         "accent": "banyan",
-        "__placeholder": "Dummy content for review. The 2026 date (4 September) is verified from the Trust\u2019s invitation; every section\u2019s photographs and videos, and all five previous-year dates and venues, are scaffolding to be replaced with the Trust\u2019s own records.",
         "sections": [
           {
             "id": "invitation",
             "letter": "A",
             "title": "Invitation",
-            "summary": "The printed invitation and the announcement circulated ahead of the celebration.",
+            "summary": "Friday 4 September 2026, from 6:00 pm at Tivoli Gardens, Secunderabad, with the divine blessings of Satguru Sri Sivananda Murty Garu. Chief guest: Swami Sarveshananda Saraswati.",
             "photos": [
               {
-                "id": "invitation-1",
-                "caption": "Invitation card, front",
-                "src": "/images/honours/sri-krishna-jayanti/invitation-1.jpg"
-              },
-              {
-                "id": "invitation-2",
-                "caption": "Invitation card, reverse",
-                "src": "/images/honours/sri-krishna-jayanti/invitation-2.jpg"
+                "id": "invitation-welcome-banner",
+                "caption": "The welcome banner at the entrance, and the reception table",
+                "src": "/images/honours/sri-krishna-jayanti/invitation-welcome-banner.jpg"
               }
             ],
-            "videos": []
+            "videos": [
+              {
+                "id": "t0",
+                "title": "Invitation and programme card",
+                "href": "https://youtu.be/BiTVmdUphFA?t=0",
+                "startSeconds": 0,
+                "verified": true
+              }
+            ]
           },
           {
             "id": "sree-krishna-pooja",
@@ -139,67 +141,72 @@
             "summary": "The pooja with which the evening opens.",
             "photos": [
               {
-                "id": "pooja-1",
-                "caption": "Alankaram",
-                "src": "/images/honours/sri-krishna-jayanti/pooja-1.jpg"
+                "id": "pooja-hall-and-altar",
+                "caption": "The hall before the programme, and the altar with Guruji\u2019s portrait",
+                "src": "/images/honours/sri-krishna-jayanti/pooja-hall-and-altar.jpg"
               },
               {
-                "id": "pooja-2",
-                "caption": "Archana",
-                "src": "/images/honours/sri-krishna-jayanti/pooja-2.jpg"
+                "id": "pooja-archana",
+                "caption": "Archana at the altar",
+                "src": "/images/honours/sri-krishna-jayanti/pooja-archana.jpg"
               },
               {
-                "id": "pooja-3",
-                "caption": "Deeparadhana",
-                "src": "/images/honours/sri-krishna-jayanti/pooja-3.jpg"
-              },
-              {
-                "id": "pooja-4",
-                "caption": "Prasadam",
-                "src": "/images/honours/sri-krishna-jayanti/pooja-4.jpg"
+                "id": "pooja-deeparadhana",
+                "caption": "Deeparadhana, and the gathering at the start of the evening",
+                "src": "/images/honours/sri-krishna-jayanti/pooja-deeparadhana.jpg"
               }
             ],
-            "videos": []
+            "videos": [
+              {
+                "id": "t55",
+                "title": "Sri Krishna Pooja",
+                "href": "https://youtu.be/BiTVmdUphFA?t=55",
+                "startSeconds": 55,
+                "verified": true
+              }
+            ]
           },
           {
             "id": "cultural-programme",
             "letter": "C",
             "title": "Cultural Programme",
-            "summary": "Classical dance and flute, offered before the felicitations.",
+            "summary": "Sri Venkateswara Kalyanam, a dance ballet by visually challenged students of the Devnar Foundation, followed by a flute recital by Kum. Emani Sri Poornima and party.",
             "photos": [
               {
-                "id": "cultural-1",
-                "caption": "Bharatanatyam recital",
-                "src": "/images/honours/sri-krishna-jayanti/cultural-1.jpg"
+                "id": "cultural-dance-ballet",
+                "caption": "Sri Venkateswara Kalyanam \u2014 dance ballet",
+                "src": "/images/honours/sri-krishna-jayanti/cultural-dance-ballet.jpg"
               },
               {
-                "id": "cultural-2",
-                "caption": "Dance ensemble",
-                "src": "/images/honours/sri-krishna-jayanti/cultural-2.jpg"
+                "id": "cultural-dance-ensemble",
+                "caption": "The dance ensemble on stage",
+                "src": "/images/honours/sri-krishna-jayanti/cultural-dance-ensemble.jpg"
               },
               {
-                "id": "cultural-3",
-                "caption": "Flute recital",
-                "src": "/images/honours/sri-krishna-jayanti/cultural-3.jpg"
+                "id": "cultural-performers",
+                "caption": "The performers with their teachers",
+                "src": "/images/honours/sri-krishna-jayanti/cultural-performers.jpg"
               },
               {
-                "id": "cultural-4",
-                "caption": "Accompanists",
-                "src": "/images/honours/sri-krishna-jayanti/cultural-4.jpg"
+                "id": "cultural-music",
+                "caption": "The hall during the programme, and the music ensemble",
+                "src": "/images/honours/sri-krishna-jayanti/cultural-music.jpg"
               }
             ],
             "videos": [
               {
-                "id": "cultural-v1",
-                "title": "Dance recital \u2014 full performance",
-                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
-                "thumbnail": "/images/honours/sri-krishna-jayanti/cultural-v1.jpg"
+                "id": "t70",
+                "title": "Sri Venkateswara Kalyanam \u2014 dance ballet",
+                "href": "https://youtu.be/BiTVmdUphFA?t=70",
+                "startSeconds": 70,
+                "verified": true
               },
               {
-                "id": "cultural-v2",
-                "title": "Flute recital \u2014 full performance",
-                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
-                "thumbnail": "/images/honours/sri-krishna-jayanti/cultural-v2.jpg"
+                "id": "t150",
+                "title": "Flute recital \u2014 Kum. Emani Sri Poornima and party",
+                "href": "https://youtu.be/BiTVmdUphFA?t=150",
+                "startSeconds": 150,
+                "verified": true
               }
             ]
           },
@@ -207,51 +214,59 @@
             "id": "managing-trustee-speech",
             "letter": "D",
             "title": "Managing Trustee's Speech",
-            "summary": "Address by Sri K. Basavaraju, Managing Trustee.",
+            "summary": "Address from the Trust.",
             "photos": [
               {
-                "id": "trustee-1",
+                "id": "trustee-at-the-lectern",
                 "caption": "At the lectern",
-                "src": "/images/honours/sri-krishna-jayanti/trustee-1.jpg"
+                "src": "/images/honours/sri-krishna-jayanti/trustee-at-the-lectern.jpg"
               },
               {
-                "id": "trustee-2",
+                "id": "trustee-addressing-the-hall",
                 "caption": "Addressing the hall",
-                "src": "/images/honours/sri-krishna-jayanti/trustee-2.jpg"
+                "src": "/images/honours/sri-krishna-jayanti/trustee-addressing-the-hall.jpg"
               }
             ],
             "videos": [
               {
-                "id": "trustee-v1",
-                "title": "Managing Trustee \u2014 address in full",
-                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
-                "thumbnail": "/images/honours/sri-krishna-jayanti/trustee-v1.jpg"
+                "id": "t270",
+                "title": "Address by Sri L. V. Subrahmanyam, IAS (Retd)",
+                "href": "https://youtu.be/BiTVmdUphFA?t=270",
+                "startSeconds": 270,
+                "verified": true
               }
-            ]
+            ],
+            "needsContent": "The recording names each speaker on screen, but none of the captions reads \u201cManaging Trustee\u201d. The address linked here is the one captioned Sri L. V. Subrahmanyam, IAS (Retd), a trustee. If the Managing Trustee spoke at a different point, correct the timestamp here."
           },
           {
             "id": "rajasekhar-speech",
             "letter": "E",
             "title": "Sri K. Rajasekhar's Speech",
-            "summary": "Address by Sri K. Rajasekhar, Trustee.",
+            "summary": "Address by Sri K. Rajasekhar, Trustee \u2014 captioned \u201cRaj Kandukuri\u201d in the recording.",
             "photos": [
               {
-                "id": "rajasekhar-1",
-                "caption": "At the lectern",
-                "src": "/images/honours/sri-krishna-jayanti/rajasekhar-1.jpg"
+                "id": "rajasekhar-on-the-dais",
+                "caption": "On the dais, and at the lectern",
+                "src": "/images/honours/sri-krishna-jayanti/rajasekhar-on-the-dais.jpg"
               },
               {
-                "id": "rajasekhar-2",
-                "caption": "With the gathering",
-                "src": "/images/honours/sri-krishna-jayanti/rajasekhar-2.jpg"
+                "id": "rajasekhar-address",
+                "caption": "The gathering during the address",
+                "src": "/images/honours/sri-krishna-jayanti/rajasekhar-address.jpg"
+              },
+              {
+                "id": "rajasekhar-listening",
+                "caption": "Listening from the dais",
+                "src": "/images/honours/sri-krishna-jayanti/rajasekhar-listening.jpg"
               }
             ],
             "videos": [
               {
-                "id": "rajasekhar-v1",
-                "title": "Sri K. Rajasekhar \u2014 address in full",
-                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
-                "thumbnail": "/images/honours/sri-krishna-jayanti/rajasekhar-v1.jpg"
+                "id": "t290",
+                "title": "Address by Sri K. Rajasekhar",
+                "href": "https://youtu.be/BiTVmdUphFA?t=290",
+                "startSeconds": 290,
+                "verified": true
               }
             ]
           },
@@ -259,41 +274,43 @@
             "id": "book-release",
             "letter": "F",
             "title": "Book Release",
-            "summary": "Two titles released during the evening.",
+            "summary": "Titles released during the evening.",
             "photos": [
               {
-                "id": "book-release-1",
-                "caption": "First title \u2014 unveiling",
-                "src": "/images/honours/sri-krishna-jayanti/book-release-1.jpg"
+                "id": "book-release-books-released",
+                "caption": "The titles held up after the release",
+                "src": "/images/honours/sri-krishna-jayanti/book-release-books-released.jpg"
               },
               {
-                "id": "book-release-2",
-                "caption": "First title \u2014 with the author",
-                "src": "/images/honours/sri-krishna-jayanti/book-release-2.jpg"
+                "id": "book-release-release-moment",
+                "caption": "The moment of release",
+                "src": "/images/honours/sri-krishna-jayanti/book-release-release-moment.jpg"
               },
               {
-                "id": "book-release-3",
-                "caption": "Second title \u2014 unveiling",
-                "src": "/images/honours/sri-krishna-jayanti/book-release-3.jpg"
+                "id": "book-release-handover",
+                "caption": "A copy presented, and the address that followed",
+                "src": "/images/honours/sri-krishna-jayanti/book-release-handover.jpg"
               },
               {
-                "id": "book-release-4",
-                "caption": "Second title \u2014 with the author",
-                "src": "/images/honours/sri-krishna-jayanti/book-release-4.jpg"
+                "id": "book-release-on-stage",
+                "caption": "The party on stage",
+                "src": "/images/honours/sri-krishna-jayanti/book-release-on-stage.jpg"
               }
             ],
             "videos": [
               {
-                "id": "book-release-v1",
-                "title": "Book release \u2014 first title",
-                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
-                "thumbnail": "/images/honours/sri-krishna-jayanti/book-release-v1.jpg"
+                "id": "t470",
+                "title": "Book release",
+                "href": "https://youtu.be/BiTVmdUphFA?t=470",
+                "startSeconds": 470,
+                "verified": true
               },
               {
-                "id": "book-release-v2",
-                "title": "Book release \u2014 second title",
-                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
-                "thumbnail": "/images/honours/sri-krishna-jayanti/book-release-v2.jpg"
+                "id": "t490",
+                "title": "Address by Sri Rayaprolu Venkata Kameswara Sarma",
+                "href": "https://youtu.be/BiTVmdUphFA?t=490",
+                "startSeconds": 490,
+                "verified": true
               }
             ]
           },
@@ -301,41 +318,50 @@
             "id": "awardees",
             "letter": "G",
             "title": "Awardees: Felicitation & Response",
-            "summary": "The conferral of the Puraskaram, and the recipients\u2019 responses.",
+            "summary": "The conferral of the Puraskaram, and the address by the chief guest.",
             "photos": [
               {
-                "id": "awardees-1",
-                "caption": "Conferral of the citation",
-                "src": "/images/honours/sri-krishna-jayanti/awardees-1.jpg"
-              },
-              {
-                "id": "awardees-2",
+                "id": "awardees-memento",
                 "caption": "Presentation of the memento",
-                "src": "/images/honours/sri-krishna-jayanti/awardees-2.jpg"
+                "src": "/images/honours/sri-krishna-jayanti/awardees-memento.jpg"
               },
               {
-                "id": "awardees-3",
-                "caption": "Recipient responding",
-                "src": "/images/honours/sri-krishna-jayanti/awardees-3.jpg"
+                "id": "awardees-shawl",
+                "caption": "Honouring with the shawl",
+                "src": "/images/honours/sri-krishna-jayanti/awardees-shawl.jpg"
               },
               {
-                "id": "awardees-4",
-                "caption": "With the trustees",
-                "src": "/images/honours/sri-krishna-jayanti/awardees-4.jpg"
+                "id": "awardees-citation",
+                "caption": "Conferral of the citation",
+                "src": "/images/honours/sri-krishna-jayanti/awardees-citation.jpg"
+              },
+              {
+                "id": "awardees-group",
+                "caption": "The recipients together, and the annadanam that followed",
+                "src": "/images/honours/sri-krishna-jayanti/awardees-group.jpg"
               }
             ],
             "videos": [
               {
-                "id": "awardees-v1",
-                "title": "Felicitation ceremony",
-                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
-                "thumbnail": "/images/honours/sri-krishna-jayanti/awardees-v1.jpg"
+                "id": "t980",
+                "title": "Felicitation of the awardees",
+                "href": "https://youtu.be/BiTVmdUphFA?t=980",
+                "startSeconds": 980,
+                "verified": true
               },
               {
-                "id": "awardees-v2",
-                "title": "Awardees\u2019 responses",
-                "href": "https://www.youtube.com/c/SadguruSivanandaMurthyGaru/videos",
-                "thumbnail": "/images/honours/sri-krishna-jayanti/awardees-v2.jpg"
+                "id": "t1070",
+                "title": "Address by the chief guest, Swami Sarveshananda Saraswati",
+                "href": "https://youtu.be/BiTVmdUphFA?t=1070",
+                "startSeconds": 1070,
+                "verified": true
+              },
+              {
+                "id": "t1330",
+                "title": "Further felicitations",
+                "href": "https://youtu.be/BiTVmdUphFA?t=1330",
+                "startSeconds": 1330,
+                "verified": true
               }
             ]
           },
@@ -343,27 +369,22 @@
             "id": "audience",
             "letter": "H",
             "title": "Audience & Hall",
-            "summary": "The gathering, and the hall at Tivoli Garden.",
+            "summary": "The gathering, and the hall at Tivoli Gardens.",
             "photos": [
               {
-                "id": "audience-1",
-                "caption": "The hall before the programme",
-                "src": "/images/honours/sri-krishna-jayanti/audience-1.jpg"
+                "id": "audience-dais",
+                "caption": "The dais and the gathering",
+                "src": "/images/honours/sri-krishna-jayanti/audience-dais.jpg"
               },
               {
-                "id": "audience-2",
-                "caption": "The gathering",
-                "src": "/images/honours/sri-krishna-jayanti/audience-2.jpg"
+                "id": "audience-greetings",
+                "caption": "Greetings before the programme",
+                "src": "/images/honours/sri-krishna-jayanti/audience-greetings.jpg"
               },
               {
-                "id": "audience-3",
-                "caption": "Stage and backdrop",
-                "src": "/images/honours/sri-krishna-jayanti/audience-3.jpg"
-              },
-              {
-                "id": "audience-4",
-                "caption": "Annadanam",
-                "src": "/images/honours/sri-krishna-jayanti/audience-4.jpg"
+                "id": "audience-listening",
+                "caption": "The audience during the addresses",
+                "src": "/images/honours/sri-krishna-jayanti/audience-listening.jpg"
               }
             ],
             "videos": []
@@ -375,29 +396,41 @@
           {
             "year": 2025,
             "date": "2025-08-16",
-            "venue": "Tivoli Garden, Secunderabad"
+            "venue": "Tivoli Garden, Secunderabad",
+            "__placeholder": "date and venue unverified"
           },
           {
             "year": 2024,
             "date": "2024-08-26",
-            "venue": "Tivoli Garden, Secunderabad"
+            "venue": "Tivoli Garden, Secunderabad",
+            "__placeholder": "date and venue unverified"
           },
           {
             "year": 2023,
             "date": "2023-09-07",
-            "venue": "Anandavanam, Bheemunipatnam"
+            "venue": "Anandavanam, Bheemunipatnam",
+            "__placeholder": "date and venue unverified"
           },
           {
             "year": 2022,
             "date": "2022-08-19",
-            "venue": "Anandavanam, Bheemunipatnam"
+            "venue": "Anandavanam, Bheemunipatnam",
+            "__placeholder": "date and venue unverified"
           },
           {
             "year": 2021,
             "date": "2021-08-30",
-            "venue": "Gurudham, Warangal"
+            "venue": "Gurudham, Warangal",
+            "__placeholder": "date and venue unverified"
           }
-        ]
+        ],
+        "video": {
+          "href": "https://youtu.be/BiTVmdUphFA",
+          "title": "Sri Krishna Jayanthi Celebrations \u2014 2026",
+          "channel": "Sathguru Sri Sivananda Murthy Garu",
+          "durationSeconds": 1565
+        },
+        "photoAlbum": "https://photos.app.goo.gl/YGvYGm2DtJsCcSfR7"
       }
     ],
     "contact": {
